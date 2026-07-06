@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<title>Garo AI Translator — English to Garo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --forest:#1f3a2e; --forest-dark:#142720; --terracotta:#c1652f;
+    --cream:#f3ead9; --cream-dim:#e8dcc4; --charcoal:#2b2620;
+    --gold:#d9a441; --line:rgba(43,38,32,0.12); --white:#fff;
+  }
+  *{box-sizing:border-box;} body{margin:0;} html,body{background:var(--cream); color:var(--charcoal); font-family:'Inter',sans-serif; -webkit-font-smoothing:antialiased;}
+  ::selection{background:var(--gold); color:var(--forest-dark);}
+  .weave{height:14px;width:100%;background-image:linear-gradient(135deg,var(--terracotta) 25%,transparent 25%),linear-gradient(225deg,var(--terracotta) 25%,transparent 25%),linear-gradient(45deg,var(--gold) 25%,transparent 25%),linear-gradient(315deg,var(--gold) 25%,transparent 25%);background-position:14px 0,14px 0,0 0,0 0;background-size:14px 14px;background-repeat:repeat-x;background-color:var(--forest);opacity:.9;}
+  header{background:var(--forest);color:var(--cream);padding:48px 20px 56px;text-align:center;position:relative;overflow:hidden;}
+  header::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 15% 20%,rgba(217,164,65,.10),transparent 40%),radial-gradient(circle at 85% 80%,rgba(193,101,47,.14),transparent 45%);pointer-events:none;}
+  .eyebrow{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:14px;position:relative;}
+  h1{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(34px,7vw,56px);line-height:1.05;margin:0 0 14px;letter-spacing:-.01em;position:relative;}
+  h1 em{font-style:italic;color:var(--gold);} header p.sub{max-width:520px;margin:0 auto;font-size:15.5px;line-height:1.6;color:rgba(243,234,217,.78);position:relative;}
+  main{max-width:760px;margin:0 auto;padding:36px 20px 80px;}
+  .translate-card,.panel{background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:0 1px 2px rgba(43,38,32,.04),0 12px 32px -16px rgba(43,38,32,.18);overflow:hidden;position:relative;z-index:2;}
+  .translate-card{margin-top:-40px;}
+  .input-row{display:flex;align-items:flex-start;gap:12px;padding:18px 18px 14px;border-bottom:1px solid var(--line);}
+  .lang-tag{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--terracotta);padding-top:14px;flex-shrink:0;width:46px;}
+  textarea{font-family:'Inter',sans-serif;}
+  textarea#srcText{flex:1;border:none;outline:none;resize:none;font-size:18px;line-height:1.5;color:var(--charcoal);padding:10px 0;min-height:54px;background:transparent;}
+  textarea#srcText::placeholder{color:#b5ad9b;}
+  .meta-row{display:flex;justify-content:space-between;align-items:center;padding:8px 18px 8px 64px;font-size:12px;color:#9c937e;gap:10px;}
+  .meta-row span#wordCount{font-family:'JetBrains Mono',monospace;white-space:nowrap;}
+  .action-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;padding:12px 18px 16px 64px;border-bottom:1px solid var(--line);background:#fffaf0;}
+  .btn{border:none;border-radius:10px;padding:10px 16px;font-weight:700;font-size:13px;cursor:pointer;transition:transform .12s ease,opacity .12s ease,background .12s ease;}
+  .btn:active{transform:scale(.98);} .btn:disabled{opacity:.6;cursor:not-allowed;}
+  .btn-primary{background:var(--forest);color:var(--cream);} .btn-primary:hover{background:var(--forest-dark);}
+  .btn-secondary{background:var(--cream);color:var(--forest);border:1px solid var(--line);} .btn-secondary:hover{background:var(--cream-dim);}
+  .btn-small{padding:8px 12px;font-size:12px;border-radius:8px;}
+  .result-row{display:flex;align-items:flex-start;gap:12px;padding:16px 18px 22px;background:var(--cream);}
+  .lang-tag.tgt{color:var(--forest);} #resultText{flex:1;font-family:'Fraunces',serif;font-size:22px;font-weight:500;line-height:1.5;color:var(--forest-dark);padding-top:8px;min-height:32px;word-break:break-word;}
+  #resultText.placeholder{color:#b5ad9b;font-family:'Inter',sans-serif;font-weight:400;font-size:15px;} #resultText.unconfident{font-family:'Inter',sans-serif;font-size:14px;font-weight:400;color:#a3623a;font-style:italic;}
+  .copy-btn{margin-top:8px;background:none;border:1px solid var(--line);border-radius:8px;padding:5px 10px;font-size:11px;font-family:'JetBrains Mono',monospace;color:var(--forest);cursor:pointer;flex-shrink:0;transition:background .15s ease,border-color .15s ease;}
+  .copy-btn:hover{background:rgba(31,58,46,.06);border-color:rgba(31,58,46,.25);} .copy-btn:active{transform:scale(.97);}
+  section.examples{margin-top:36px;} .examples h2,.panel h2{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#9c937e;margin:0 0 14px;}
+  .chip-grid{display:flex;flex-wrap:wrap;gap:8px;} .chip{background:#fff;border:1px solid var(--line);border-radius:999px;padding:8px 14px;font-size:13.5px;color:var(--charcoal);cursor:pointer;transition:border-color .15s ease,color .15s ease;}.chip:hover{border-color:var(--terracotta);color:var(--terracotta);}
+  .panel{margin-top:24px;padding:20px;} .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;} .form-grid.full{grid-template-columns:1fr;}
+  label{font-size:12px;font-weight:700;color:#746b5b;display:block;margin-bottom:6px;} input,select,.form-textarea{width:100%;border:1px solid var(--line);border-radius:10px;padding:11px 12px;background:#fff;color:var(--charcoal);font-size:14px;outline:none;}
+  input:focus,select:focus,.form-textarea:focus{border-color:rgba(31,58,46,.45);box-shadow:0 0 0 3px rgba(31,58,46,.08);} .form-textarea{min-height:84px;resize:vertical;}
+  .form-actions{display:flex;gap:10px;align-items:center;margin-top:12px;flex-wrap:wrap;} .status-msg{font-size:13px;color:#746b5b;min-height:18px;}
+  .notice{font-size:13px;line-height:1.5;color:#746b5b;background:#fffaf0;border:1px solid var(--line);border-radius:12px;padding:12px;margin:0 0 14px;}
+  .modal-backdrop{position:fixed;inset:0;background:rgba(20,39,32,.64);display:none;align-items:center;justify-content:center;padding:20px;z-index:20;}
+  .modal-backdrop.show{display:flex;} .modal{max-width:460px;background:#fff;border-radius:18px;border:1px solid var(--line);box-shadow:0 20px 80px rgba(0,0,0,.24);padding:24px;} .modal-wide{width:min(760px,96vw);max-width:760px;} .form-frame-wrap{width:100%;height:min(72vh,720px);border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fffaf0;} .form-frame{width:100%;height:100%;border:0;background:#fff;} .form-frame.empty{display:flex;align-items:center;justify-content:center;}
+  .modal h2{font-family:'Fraunces',serif;font-size:28px;line-height:1.1;color:var(--forest);margin:0 0 10px;} .modal p{font-size:14.5px;line-height:1.6;color:#5d5448;margin:0 0 18px;} .modal-header{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;} .icon-btn{border:1px solid var(--line);background:var(--cream);color:var(--forest);border-radius:999px;width:34px;height:34px;cursor:pointer;font-size:20px;line-height:1;} .icon-btn:hover{background:var(--cream-dim);} .modal .form-grid{grid-template-columns:1fr;} .modal .form-actions{margin-top:14px;}
+  footer{text-align:center;padding:30px 20px 50px;font-size:12px;color:#a89f8c;} footer a{color:var(--terracotta);text-decoration:none;}
+  @media (max-width:560px){header{padding:38px 16px 50px}.translate-card{margin-top:-32px;border-radius:14px}textarea#srcText{font-size:16px}#resultText{font-size:19px}.form-grid{grid-template-columns:1fr}.action-row,.meta-row{padding-left:18px}.lang-tag{width:40px}}
+</style>
+</head>
+<body>
+<div class="modal-backdrop" id="welcomeModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal">
+    <h2 id="modalTitle">Testing Notice</h2>
+    <p>This Garo AI Translator is still in testing. It may make mistakes, miss words, or give incomplete translations. Please share feedback or contribute correct translations to help improve the project.</p>
+    <button class="btn btn-primary" id="modalOkBtn">I understand</button>
+  </div>
+</div>
+
+<div class="modal-backdrop" id="contributeModal" role="dialog" aria-modal="true" aria-labelledby="contributeTitle">
+  <div class="modal modal-wide">
+    <div class="modal-header">
+      <h2 id="contributeTitle">Contribute Translation</h2>
+      <button class="icon-btn" id="closeContributeBtn" aria-label="Close contribution popup">×</button>
+    </div>
+    <p>Suggest a correct English and Garo translation. Your response will be collected through Google Form and stored in your connected Google Sheet.</p>
+    <div class="form-frame-wrap">
+      <iframe id="contributeFrame" class="form-frame" title="Contribution Google Form"></iframe>
+    </div>
+    <div class="form-actions"><a class="btn btn-secondary btn-small" id="openContributeFormNewTab" target="_blank" rel="noopener">Open form in new tab</a><span class="status-msg" id="contribStatus"></span></div>
+  </div>
+</div>
+
+<div class="modal-backdrop" id="feedbackModal" role="dialog" aria-modal="true" aria-labelledby="feedbackTitle">
+  <div class="modal modal-wide">
+    <div class="modal-header">
+      <h2 id="feedbackTitle">Give Feedback</h2>
+      <button class="icon-btn" id="closeFeedbackBtn" aria-label="Close feedback popup">×</button>
+    </div>
+    <p>Tell me what worked, what failed, or what should be improved. Your response will be collected through Google Form and stored in your connected Google Sheet.</p>
+    <div class="form-frame-wrap">
+      <iframe id="feedbackFrame" class="form-frame" title="Feedback Google Form"></iframe>
+    </div>
+    <div class="form-actions"><a class="btn btn-secondary btn-small" id="openFeedbackFormNewTab" target="_blank" rel="noopener">Open form in new tab</a><span class="status-msg" id="feedbackStatus"></span></div>
+  </div>
+</div>
+<header>
+  <div class="eyebrow">Garo AI Translator · A’chik Language Project</div>
+  <h1>Translate English to <em>Garo</em><br>with AI support</h1>
+  <p class="sub">A community-built English to Garo translator project. Type a word or sentence, press Translate, and help improve the system with your feedback and contributions.</p>
+</header>
+<div class="weave"></div>
+<main>
+  <div class="translate-card">
+    <div class="input-row">
+      <div class="lang-tag">EN</div>
+      <textarea id="srcText" placeholder="Type something to translate…" rows="1"></textarea>
+    </div>
+    <div class="meta-row"><span id="matchType">—</span><span id="wordCount">0 words</span></div>
+    <div class="action-row">
+      <button class="btn btn-primary" id="translateBtn">Translate</button>
+      <button class="btn btn-secondary" id="clearBtn">Clear</button>
+      <button class="btn btn-secondary" id="openContributeBtn">Contribute</button>
+      <button class="btn btn-secondary" id="openFeedbackBtn">Feedback</button>
+      <span class="status-msg" id="translateStatus"></span>
+    </div>
+    <div class="result-row">
+      <div class="lang-tag tgt">GARO</div>
+      <div style="flex:1;">
+        <div id="resultText" class="placeholder">Your translation will appear here.</div>
+        <button class="copy-btn" id="copyBtn" style="display:none;">Copy</button>
+      </div>
+    </div>
+  </div>
+  <section class="examples">
+    <h2>Try sample sentences</h2>
+    <div class="chip-grid" id="chipGrid"></div>
+  </section>
+</main>
+<footer>Garo AI Translator is a learning project built to support and digitize the Garo language. Your feedback and contributions help improve every translation.</footer>
+<script>
+  const API_BASE = "";
+
+  // Paste your Google Form EMBED links here.
+  // Example format: https://docs.google.com/forms/d/e/FORM_ID/viewform?embedded=true
+  const CONTRIBUTION_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfFyygBCEjRQNAufyFg-sY3R4dVfcaZR95bxJApCWW8AGSyuQ/viewform?embedded=true";
+  const FEEDBACK_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSco1mACP1ZdOSedaaAy77-ReuSGElvQV6usUM1pntombVhalA/viewform?embedded=true";
+  const srcText = document.getElementById('srcText');
+  const resultText = document.getElementById('resultText');
+  const matchType = document.getElementById('matchType');
+  const wordCount = document.getElementById('wordCount');
+  const copyBtn = document.getElementById('copyBtn');
+  const translateBtn = document.getElementById('translateBtn');
+  const clearBtn = document.getElementById('clearBtn');
+  const translateStatus = document.getElementById('translateStatus');
+  const welcomeModal = document.getElementById('welcomeModal');
+  const modalOkBtn = document.getElementById('modalOkBtn');
+  const contributeModal = document.getElementById('contributeModal');
+  const feedbackModal = document.getElementById('feedbackModal');
+  const openContributeBtn = document.getElementById('openContributeBtn');
+  const closeContributeBtn = document.getElementById('closeContributeBtn');
+  const openFeedbackBtn = document.getElementById('openFeedbackBtn');
+  const closeFeedbackBtn = document.getElementById('closeFeedbackBtn');
+  const contributeFrame = document.getElementById('contributeFrame');
+  const feedbackFrame = document.getElementById('feedbackFrame');
+  const openContributeFormNewTab = document.getElementById('openContributeFormNewTab');
+  const openFeedbackFormNewTab = document.getElementById('openFeedbackFormNewTab');
+  const contribStatus = document.getElementById('contribStatus');
+  const feedbackStatus = document.getElementById('feedbackStatus');
+
+  function showWelcome(){ if(!localStorage.getItem('garo-ai-translator-testing-notice-seen')) welcomeModal.classList.add('show'); }
+  modalOkBtn.addEventListener('click', () => { localStorage.setItem('garo-ai-translator-testing-notice-seen','yes'); welcomeModal.classList.remove('show'); });
+  welcomeModal.addEventListener('click', e => { if(e.target === welcomeModal) modalOkBtn.click(); });
+
+  function openModal(modal){ modal.classList.add('show'); }
+  function closeModal(modal){ modal.classList.remove('show'); }
+  function prepareGoogleForm(frame, newTabLink, statusEl, url){
+    statusEl.textContent = '';
+    if(!url || url.includes('PASTE_')){
+      frame.removeAttribute('src');
+      statusEl.textContent = 'Paste your Google Form embed link in CONTRIBUTION_FORM_URL / FEEDBACK_FORM_URL first.';
+      newTabLink.removeAttribute('href');
+      return;
+    }
+    frame.src = url;
+    newTabLink.href = url.replace('?embedded=true','').replace('&embedded=true','');
+  }
+  openContributeBtn.addEventListener('click', () => { prepareGoogleForm(contributeFrame, openContributeFormNewTab, contribStatus, CONTRIBUTION_FORM_URL); openModal(contributeModal); });
+  closeContributeBtn.addEventListener('click', () => closeModal(contributeModal));
+  contributeModal.addEventListener('click', e => { if(e.target === contributeModal) closeModal(contributeModal); });
+  openFeedbackBtn.addEventListener('click', () => { prepareGoogleForm(feedbackFrame, openFeedbackFormNewTab, feedbackStatus, FEEDBACK_FORM_URL); openModal(feedbackModal); });
+  closeFeedbackBtn.addEventListener('click', () => closeModal(feedbackModal));
+  feedbackModal.addEventListener('click', e => { if(e.target === feedbackModal) closeModal(feedbackModal); });
+  document.addEventListener('keydown', e => { if(e.key === 'Escape'){ closeModal(contributeModal); closeModal(feedbackModal); if(welcomeModal.classList.contains('show')) modalOkBtn.click(); } });
+
+  function autoGrow(){ srcText.style.height = 'auto'; srcText.style.height = srcText.scrollHeight + 'px'; }
+  function updateWordCount(){ const words = srcText.value.trim().length ? srcText.value.trim().split(/\s+/) : []; wordCount.textContent = words.length + (words.length === 1 ? " word" : " words"); }
+  function resetResult(){ resultText.textContent = "Your translation will appear here."; resultText.className = "placeholder"; matchType.textContent = "—"; copyBtn.style.display = "none"; translateStatus.textContent = ""; }
+  function setLoading(isLoading){ translateBtn.disabled = isLoading; translateBtn.textContent = isLoading ? "Translating…" : "Translate"; }
+
+  async function translateNow(){
+    const text = srcText.value.trim();
+    updateWordCount();
+    if(!text){ resetResult(); srcText.focus(); return; }
+    setLoading(true); translateStatus.textContent = "Contacting translator…";
+    try{
+      const res = await fetch(API_BASE + '/api/translate', { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({text}) });
+      const data = await res.json();
+      if(!res.ok) throw new Error(data.error || 'Translation failed');
+      const output = data.result || data.message || 'No confident translation yet.';
+      resultText.textContent = output;
+      resultText.className = data.match_type === 'no match' ? 'unconfident' : '';
+      matchType.textContent = data.match_type || '—';
+      copyBtn.style.display = data.result ? 'inline-block' : 'none';
+      translateStatus.textContent = data.match_type === 'no match' ? 'Please contribute the correct translation.' : 'Done';
+    }catch(err){
+      resultText.textContent = 'Could not connect to the translator server.';
+      resultText.className = 'unconfident';
+      matchType.textContent = 'server error';
+      copyBtn.style.display = 'none';
+      translateStatus.textContent = err.message;
+    }finally{ setLoading(false); }
+  }
+
+  srcText.addEventListener('input', () => { autoGrow(); updateWordCount(); });
+  srcText.addEventListener('keydown', (e) => { if((e.ctrlKey || e.metaKey) && e.key === 'Enter') translateNow(); });
+  translateBtn.addEventListener('click', translateNow);
+  clearBtn.addEventListener('click', () => { srcText.value=''; autoGrow(); updateWordCount(); resetResult(); srcText.focus(); });
+  copyBtn.addEventListener('click', () => { navigator.clipboard.writeText(resultText.textContent).then(() => { copyBtn.textContent='Copied'; setTimeout(() => copyBtn.textContent='Copy',1200); }); });
+
+  const examples = ['hello','thank you','how are you','i am hungry','my name is David','good night','i love you','where are you going'];
+  const chipGrid = document.getElementById('chipGrid');
+  examples.forEach(ex => { const chip = document.createElement('div'); chip.className='chip'; chip.textContent=ex; chip.addEventListener('click', () => { srcText.value=ex; autoGrow(); updateWordCount(); resetResult(); srcText.focus(); }); chipGrid.appendChild(chip); });
+  showWelcome(); updateWordCount();
+</script>
+</body>
+</html>
