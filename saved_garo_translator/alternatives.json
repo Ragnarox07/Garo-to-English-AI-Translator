@@ -1,0 +1,6596 @@
+{
+  "sister": [
+    {
+      "target": "abi",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "done": [
+    {
+      "target": "ongjok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "answer": [
+    {
+      "target": "aganchakani",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have done": [
+    {
+      "target": "anga ongjok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "dog": [
+    {
+      "target": "achak",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "dog will eat": [
+    {
+      "target": "achak cha.gen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "tell": [
+    {
+      "target": "agan",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "tell me": [
+    {
+      "target": "agan angna",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "tell me what happened": [
+    {
+      "target": "agan angna mai ong.achim",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "tell me what are you doing": [
+    {
+      "target": "agan angna na.a mai dak.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "tell me what are you playing": [
+    {
+      "target": "agan angna maiko na.a kal.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "talk": [
+    {
+      "target": "agana",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what will be the answer": [
+    {
+      "target": "aganchakani.ara mai ong.en",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "told": [
+    {
+      "target": "aganjok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what a beautiful flower": [
+    {
+      "target": "aiao bibal silade!",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "okay listen carefully": [
+    {
+      "target": "am name knatimbo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "mother": [
+    {
+      "target": "ama",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "monkey": [
+    {
+      "target": "amak",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "grandmother": [
+    {
+      "target": "ambi",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "yes i will be careful": [
+    {
+      "target": "amde anga name dongen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "okay": [
+    {
+      "target": "amm",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "okay i will talk later": [
+    {
+      "target": "amm anga jamano golpogen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "okay i will call you": [
+    {
+      "target": "amm anga nangna call kagen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "okay no problem": [
+    {
+      "target": "amm maming ongja",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "okay got it": [
+    {
+      "target": "amm masijok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "it was okay": [
+    {
+      "target": "amm nama",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "okay i will explain again": [
+    {
+      "target": "ammde anga daoba talatenga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "look at me": [
+    {
+      "target": "anchiko ni.atbo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "us": [
+    {
+      "target": "anching",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we eat food": [
+    {
+      "target": "anching mi cha.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "for us": [
+    {
+      "target": "anchingna",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i saw the film last week": [
+    {
+      "target": "ang.a ia film ko nia mija antio",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "crab": [
+    {
+      "target": "ang.ke",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i": [
+    {
+      "target": "anga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "me": [
+    {
+      "target": "anga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "angko",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am outside": [
+    {
+      "target": "anga a.palo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i see a dog": [
+    {
+      "target": "anga achako nia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am talking": [
+    {
+      "target": "anga agan.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i talk and i listen": [
+    {
+      "target": "anga agana aro anga knatima",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am going to market": [
+    {
+      "target": "anga antichi re.angenga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am going outside": [
+    {
+      "target": "anga apalchi re.angenga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am bored": [
+    {
+      "target": "anga arataha",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "me and you": [
+    {
+      "target": "anga aro na.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am in the market": [
+    {
+      "target": "anga bajalo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am going to the market": [
+    {
+      "target": "anga bajalona re.angenga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i will come after some time": [
+    {
+      "target": "anga basakoba re.bagen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i play with children": [
+    {
+      "target": "anga bi.sarangming kal.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am 10 years old": [
+    {
+      "target": "anga bilsi chiking ongjok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am free now": [
+    {
+      "target": "anga bol pang dao",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i eat": [
+    {
+      "target": "anga cha.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i eat and i sleep": [
+    {
+      "target": "anga cha.a aro anga tusia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i will eat": [
+    {
+      "target": "anga cha.gen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am a student": [
+    {
+      "target": "anga chatro",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i drink water": [
+    {
+      "target": "anga chi ringa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i write a letter": [
+    {
+      "target": "anga chitti sea",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am dancing": [
+    {
+      "target": "anga chrok.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i will read a book tonight": [
+    {
+      "target": "anga da.al walo ki.tap poraigen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am eating now": [
+    {
+      "target": "anga dao cha.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am working now": [
+    {
+      "target": "anga dao kam ka.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "anga kaam ka.enga dao",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am craving some chicken": [
+    {
+      "target": "anga do.o cha.ana sikbe.engjok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i saw a bird": [
+    {
+      "target": "anga do.oko nika",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i dance in the festival": [
+    {
+      "target": "anga festivalo chroka",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i live in garo hill": [
+    {
+      "target": "anga garo hillo donga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i sing a song": [
+    {
+      "target": "anga git ringa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i sing and i dance": [
+    {
+      "target": "anga git ringa aro anga chroka",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i will sing": [
+    {
+      "target": "anga git ringen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i will sing a song tomorrow": [
+    {
+      "target": "anga git ringen kinalo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i live in this area": [
+    {
+      "target": "anga ia biapo dong.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i live here": [
+    {
+      "target": "anga iano dong.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i came here for some work": [
+    {
+      "target": "anga iano kam na re.baa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i came here to buy something": [
+    {
+      "target": "anga iano maikoba brena re.baa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have been here for a long time": [
+    {
+      "target": "anga iano ru.ta somoionin dong.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i came here to meet someone": [
+    {
+      "target": "anga iano sakoba grongna reba",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i will come later": [
+    {
+      "target": "anga ja.man no re.bagen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i will eat later": [
+    {
+      "target": "anga jamano cha.gen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i will talk later": [
+    {
+      "target": "anga jamano golpogen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am swimming": [
+    {
+      "target": "anga jro.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i laugh and i cry": [
+    {
+      "target": "anga ka.dinga aro anga grapa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i play": [
+    {
+      "target": "anga kal.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i play and i drink water": [
+    {
+      "target": "anga kal.a aro anga chi ringa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am playing": [
+    {
+      "target": "anga kal.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i will play": [
+    {
+      "target": "anga kalgen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i work and i rest": [
+    {
+      "target": "anga kam ka.a aro anga neng.taka",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am working": [
+    {
+      "target": "anga kam ka.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am at work": [
+    {
+      "target": "anga kammo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am running": [
+    {
+      "target": "anga kat.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i run and i play": [
+    {
+      "target": "anga kata aro anga kal.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am happy": [
+    {
+      "target": "anga katchaenga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i read a book": [
+    {
+      "target": "anga ki.tap poraia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i will drink water later": [
+    {
+      "target": "anga kinalo chi ringen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i will write a letter tomorrow": [
+    {
+      "target": "anga kinalo chiti chokgen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i will dance tomorrow": [
+    {
+      "target": "anga kinalo chrokgen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i will play tomorrow": [
+    {
+      "target": "anga kinalo kalgen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i will run tomorrow": [
+    {
+      "target": "anga kinalo katgen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i will eat food tomorrow": [
+    {
+      "target": "anga kinalo mi cha.gen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i heard": [
+    {
+      "target": "anga kna.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am listening": [
+    {
+      "target": "anga kna.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i need to buy something": [
+    {
+      "target": "anga maikoba brena nanga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am doing nothing": [
+    {
+      "target": "anga mamingba dakja.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am a person": [
+    {
+      "target": "anga mande",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i don't know": [
+    {
+      "target": "anga masija",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i cannot understand this": [
+    {
+      "target": "anga masija iako",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i need to buy some vegetables": [
+    {
+      "target": "anga me.su samjakrangko brena nanga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i live in meghalaya": [
+    {
+      "target": "anga meghalayao songdonga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am eating food": [
+    {
+      "target": "anga mi cha enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "anga mi cha.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i ate food": [
+    {
+      "target": "anga mi cha.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i eat food": [
+    {
+      "target": "anga mi cha.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i eat rice": [
+    {
+      "target": "anga mi cha.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i eat and i drink": [
+    {
+      "target": "anga mi cha.a aro anga chi ringa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i eat food and i drink water": [
+    {
+      "target": "anga mi cha.a aro anga chi ringa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am eating rice": [
+    {
+      "target": "anga mi cha.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i ate something simple": [
+    {
+      "target": "anga miakoba ramramgipako cha.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i wrote a letter last week": [
+    {
+      "target": "anga mijal walo chitti seaha",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i read the book last night": [
+    {
+      "target": "anga mijal walo ki.tap poraiaha",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i danced yesterday": [
+    {
+      "target": "anga mijalo chroka",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i sang a song yesterday": [
+    {
+      "target": "anga mijalo git ringa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i played yesterday": [
+    {
+      "target": "anga mijalo kal.aha",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i walked to school yesterday": [
+    {
+      "target": "anga mijalo schoolchi rama re.angaha",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i ate rice": [
+    {
+      "target": "anga mirongko cha.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am talking to you": [
+    {
+      "target": "anga nangko agan.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i will call you": [
+    {
+      "target": "anga nangna call kagen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i love you": [
+    {
+      "target": "anga nangna kasa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am just resting": [
+    {
+      "target": "anga neng.take dong.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am watching": [
+    {
+      "target": "anga ni.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i see": [
+    {
+      "target": "anga nia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i saw": [
+    {
+      "target": "anga nika",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i go home and i sleep": [
+    {
+      "target": "anga nokchi re.anga aro anga tusia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am going home": [
+    {
+      "target": "anga nokchi re.angenga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am at home": [
+    {
+      "target": "anga noko",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am drawing": [
+    {
+      "target": "anga noksa sal.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am hungry": [
+    {
+      "target": "anga okkrienga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "angade okrienga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i just came recently": [
+    {
+      "target": "anga ontisa somoioni dong.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am reading": [
+    {
+      "target": "anga porai.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am studying": [
+    {
+      "target": "anga porai.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i go": [
+    {
+      "target": "anga re.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am walking": [
+    {
+      "target": "anga re.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am singing": [
+    {
+      "target": "anga ring.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i drink": [
+    {
+      "target": "anga ringa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am painting": [
+    {
+      "target": "anga rongchi noksa sal.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am cleaning": [
+    {
+      "target": "anga rongtalat.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have to meet someone": [
+    {
+      "target": "anga sakoba grongna nanga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "who am i": [
+    {
+      "target": "anga sawa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i walk to school and i read a book": [
+    {
+      "target": "anga schoolchi rama re.anga aro ki.tap poraia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i go to school": [
+    {
+      "target": "anga schoolchi re.anga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i walk to school": [
+    {
+      "target": "anga schoolona rama re.anga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i write and i read": [
+    {
+      "target": "anga sea aro anga poraia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am writing": [
+    {
+      "target": "anga sea.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am waiting": [
+    {
+      "target": "anga sengso.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am learning": [
+    {
+      "target": "anga skie ra.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am a teacher": [
+    {
+      "target": "anga skigipa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am cooking": [
+    {
+      "target": "anga song.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i run fast": [
+    {
+      "target": "anga ta.rake kata",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i will come soon": [
+    {
+      "target": "anga ta.raken re.bapilgen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i will explain": [
+    {
+      "target": "anga tale agangen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am sleeping": [
+    {
+      "target": "anga tusi.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i sleep": [
+    {
+      "target": "anga tusia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i will sleep": [
+    {
+      "target": "anga tusigen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i go to sleep": [
+    {
+      "target": "anga tusina re.anga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am eating food while watching television": [
+    {
+      "target": "anga tv nie ming mi cha.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i drank water in the morning": [
+    {
+      "target": "anga walni chi ringaha",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am also fine": [
+    {
+      "target": "angaba namenga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i'm all sweaty": [
+    {
+      "target": "angade kramchi rarajok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "look towards me": [
+    {
+      "target": "angchina nibo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "thanks for helping me": [
+    {
+      "target": "angko dak.chakanina mitela",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "help me": [
+    {
+      "target": "angko dakchakbo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "forgive me": [
+    {
+      "target": "angko kema ka.bo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am sorry": [
+    {
+      "target": "angko kema ka.pabo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "my name is rohit": [
+    {
+      "target": "angko rohit minga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "angni biming rohit",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "call me when you come": [
+    {
+      "target": "angna call kabo na.a re.bajoko",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "can you help me": [
+    {
+      "target": "angna na.a dakchakna mangenma",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "na.a angko dakchakna man genma?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "love me very much": [
+    {
+      "target": "angna namen khashabo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i don't need": [
+    {
+      "target": "angna nangja",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "give me": [
+    {
+      "target": "angna onbo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "my": [
+    {
+      "target": "angni",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "my name is marak": [
+    {
+      "target": "angni biming marak",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "my name is": [
+    {
+      "target": "angni biminga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "my stomach is growling i'm so hungry": [
+    {
+      "target": "angni bokma mikuengjok mi okrieming",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "my water bottle": [
+    {
+      "target": "angni chi botol",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "it's my mistake": [
+    {
+      "target": "angnin gualani ong.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have some work": [
+    {
+      "target": "ango kam donga ka.ani",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have a problem": [
+    {
+      "target": "ango nengnikani donga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "and": [
+    {
+      "target": "aro",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "sit": [
+    {
+      "target": "asong",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "siting": [
+    {
+      "target": "asong.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "sit down": [
+    {
+      "target": "asongbo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "bear": [
+    {
+      "target": "atchiata",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "grandfather": [
+    {
+      "target": "atchu",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "good evening": [
+    {
+      "target": "attamnam",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "paternal uncle": [
+    {
+      "target": "awang",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "father": [
+    {
+      "target": "baba",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "where": [
+    {
+      "target": "bachi",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "where and how": [
+    {
+      "target": "bachi aro maidake",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "where are the birds flying": [
+    {
+      "target": "bachi doarang bilang.enga?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "where are you": [
+    {
+      "target": "bachi na.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "na.ara bachi",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "where did you go": [
+    {
+      "target": "bachi na.a re.anga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "where are you going": [
+    {
+      "target": "bachi na.a re.angenga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "bachi re.angenga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "na a batchi re angna amenga?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "na.a bachi re.angenga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "where is the river flowing": [
+    {
+      "target": "bachina chiringni chi joka.enga?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "which": [
+    {
+      "target": "badia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "which is the sweetest fruit": [
+    {
+      "target": "badia bite chibata?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "which tree is tall": [
+    {
+      "target": "badia bol rubata?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "which student is reading the book": [
+    {
+      "target": "badia chatro ki.tap poraienga?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "which book am i reading": [
+    {
+      "target": "badia ki.tapko anga porai.enga?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "which is yours": [
+    {
+      "target": "badia nangni",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "how many": [
+    {
+      "target": "badita",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "which story did you tell": [
+    {
+      "target": "badiya golpo ko agana?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "how much food is left": [
+    {
+      "target": "baita cha.ani dongku.enga?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "how many houses are in the village": [
+    {
+      "target": "baita nokrang dong.a ia songadamo?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "market": [
+    {
+      "target": "bajal",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what is inside the box": [
+    {
+      "target": "bakos ning.ao mai donga?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "many": [
+    {
+      "target": "banga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "where am i": [
+    {
+      "target": "bano anga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "when": [
+    {
+      "target": "basako",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "when will i eat": [
+    {
+      "target": "basako anga chagen?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "when will the children play": [
+    {
+      "target": "basako bisarang kalgen?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "when will the moon rise": [
+    {
+      "target": "basako jajong nadogen?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "when will you come back": [
+    {
+      "target": "basako na.a re.bapilgen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "when did the teacher laugh": [
+    {
+      "target": "basako skigipa kadinga?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "how long have you been here": [
+    {
+      "target": "basakoni na.a iano dong.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he": [
+    {
+      "target": "bia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "ua",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she": [
+    {
+      "target": "bia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he is talking": [
+    {
+      "target": "bia agan.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he ate an apple": [
+    {
+      "target": "bia apple cha.aha",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he is eating an apple": [
+    {
+      "target": "bia apple cha.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he and me": [
+    {
+      "target": "bia aro anga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she came by bus yesterday": [
+    {
+      "target": "bia bus o reba.a mijalo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he has eaten": [
+    {
+      "target": "bia chamanjok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he is dancing": [
+    {
+      "target": "bia chrok.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he is swimming": [
+    {
+      "target": "bia jro.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he is playing": [
+    {
+      "target": "bia kal.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he is working": [
+    {
+      "target": "bia kam ka.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he is running": [
+    {
+      "target": "bia kat.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he is listening": [
+    {
+      "target": "bia kna.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he eats food": [
+    {
+      "target": "bia mi cha.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she eats food": [
+    {
+      "target": "bia mi cha.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he is watching": [
+    {
+      "target": "bia ni.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he is drawing": [
+    {
+      "target": "bia noksa sal.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he is reading": [
+    {
+      "target": "bia porai.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he is studying": [
+    {
+      "target": "bia porai.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he is walking": [
+    {
+      "target": "bia re.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he is singing": [
+    {
+      "target": "bia ring.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he is painting": [
+    {
+      "target": "bia rongchi noksa sal.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he is cleaning": [
+    {
+      "target": "bia rongtalat.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he go to school": [
+    {
+      "target": "bia schoolchi re.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he is writing": [
+    {
+      "target": "bia sea.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he is waiting": [
+    {
+      "target": "bia sengso.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he is learning": [
+    {
+      "target": "bia skie ra.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he is cooking": [
+    {
+      "target": "bia song.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he is sleeping": [
+    {
+      "target": "bia tusi.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he sleep": [
+    {
+      "target": "bia tusia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he slept the whole night": [
+    {
+      "target": "bia walgimik tua",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "skin": [
+    {
+      "target": "bigil",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "name": [
+    {
+      "target": "biming",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they went to the mosque": [
+    {
+      "target": "bisong olakiramchi re.anga.",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "tree": [
+    {
+      "target": "bol",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "bottle": [
+    {
+      "target": "botol",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "tea": [
+    {
+      "target": "cha",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "eat": [
+    {
+      "target": "cha.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "chabo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "will eat": [
+    {
+      "target": "cha.gen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "ate": [
+    {
+      "target": "cha.ha",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "key": [
+    {
+      "target": "chabi",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "eat up": [
+    {
+      "target": "chabo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "wake": [
+    {
+      "target": "chakat",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "wake up": [
+    {
+      "target": "chakatbo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "woke": [
+    {
+      "target": "chakatjok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "woke up": [
+    {
+      "target": "chakatjok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "water": [
+    {
+      "target": "chi",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we are talking": [
+    {
+      "target": "chinga agan.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we are dancing": [
+    {
+      "target": "chinga chrok.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we are swimming": [
+    {
+      "target": "chinga jro.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we are playing": [
+    {
+      "target": "chinga kal.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we are working": [
+    {
+      "target": "chinga kam ka.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we are running": [
+    {
+      "target": "chinga kat.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we are listening": [
+    {
+      "target": "chinga kna.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we are watching": [
+    {
+      "target": "chinga ni.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we are drawing": [
+    {
+      "target": "chinga noksa sal.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we are reading": [
+    {
+      "target": "chinga porai.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we are studying": [
+    {
+      "target": "chinga porai.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we are walking": [
+    {
+      "target": "chinga re.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we are singing": [
+    {
+      "target": "chinga ring.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we are painting": [
+    {
+      "target": "chinga rongchi noksa sal.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we are cleaning": [
+    {
+      "target": "chinga rongtalat.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we are writing": [
+    {
+      "target": "chinga sea.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we are waiting": [
+    {
+      "target": "chinga sengso.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we are learning": [
+    {
+      "target": "chinga skie ra.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we are cooking": [
+    {
+      "target": "chinga song.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we are sleeping": [
+    {
+      "target": "chinga tusi.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "to us": [
+    {
+      "target": "chingna",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "in us": [
+    {
+      "target": "chingo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "small": [
+    {
+      "target": "chona",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "younger": [
+    {
+      "target": "chongipa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "brother": [
+    {
+      "target": "dada",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "do": [
+    {
+      "target": "daka",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "doing": [
+    {
+      "target": "dakenga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "big": [
+    {
+      "target": "dal.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "elder": [
+    {
+      "target": "dalgipa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "girl": [
+    {
+      "target": "dambe me.chik",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "boy": [
+    {
+      "target": "dambe pante",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "now": [
+    {
+      "target": "dao",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "explain again": [
+    {
+      "target": "daoba tai talatbo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "do it now": [
+    {
+      "target": "daon dakat",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "bye": [
+    {
+      "target": "de bye",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "see you": [
+    {
+      "target": "de dongbo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "nigen nangko",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "okay be careful": [
+    {
+      "target": "de name",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "it was a hot day": [
+    {
+      "target": "dingbea da.asalde",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "goat": [
+    {
+      "target": "do.bok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "live": [
+    {
+      "target": "dong.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "donkey": [
+    {
+      "target": "gada",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "will": [
+    {
+      "target": "gen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "ska",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "nose": [
+    {
+      "target": "gingting",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "neck": [
+    {
+      "target": "gitok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "rhino": [
+    {
+      "target": "gondu",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "horse": [
+    {
+      "target": "gora",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "let's go together": [
+    {
+      "target": "hai apsan re.na indide",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "hey": [
+    {
+      "target": "hey",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "hi": [
+    {
+      "target": "hi",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "yes": [
+    {
+      "target": "hoe",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "yes i am busy": [
+    {
+      "target": "hoe anga busy",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "yes i ate": [
+    {
+      "target": "hoe anga cha.jok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "yes i understood": [
+    {
+      "target": "hoe anga masijok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "yes i can help you,": [
+    {
+      "target": "hoe anga nangko dakchakna mangenba",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "yes it was good": [
+    {
+      "target": "hoe ia nama",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "it": [
+    {
+      "target": "ia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "this": [
+    {
+      "target": "ia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "mice to hear that": [
+    {
+      "target": "ia katta ko knae kusi ong.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "here": [
+    {
+      "target": "iano",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "no": [
+    {
+      "target": "ihing",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "no i did not understand": [
+    {
+      "target": "ihing anga masijaha",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "no i cannot help now": [
+    {
+      "target": "ihing anga nangko dakchakna manjawa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "no not yet": [
+    {
+      "target": "ihing kakuja",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "no it was not good": [
+    {
+      "target": "ihing namja",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "but": [
+    {
+      "target": "indiba",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "so many": [
+    {
+      "target": "indita",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "foot": [
+    {
+      "target": "ja.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "thigh": [
+    {
+      "target": "ja.ping",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "knee": [
+    {
+      "target": "ja.sku",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "kneel": [
+    {
+      "target": "ja.sku dema",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "leg": [
+    {
+      "target": "jachok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "don't worry": [
+    {
+      "target": "jajrengnabe",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "hand": [
+    {
+      "target": "jak",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "palm": [
+    {
+      "target": "jakpa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "arm": [
+    {
+      "target": "jakpong",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "silchidare",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "finger": [
+    {
+      "target": "jaksi",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "fingers": [
+    {
+      "target": "jaksirang",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "nail": [
+    {
+      "target": "jakskil",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "talk to you later": [
+    {
+      "target": "jamano nangming golpogen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "back": [
+    {
+      "target": "janggil",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "ki.sangchi",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "kisang",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "as many": [
+    {
+      "target": "jegita",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "hello": [
+    {
+      "target": "jisuna rasong",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "younger brother": [
+    {
+      "target": "jojong",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "dream": [
+    {
+      "target": "jumang",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "chest": [
+    {
+      "target": "ka.bak",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "love": [
+    {
+      "target": "ka.sa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "loving": [
+    {
+      "target": "ka.saenga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "please, come here": [
+    {
+      "target": "ka.sapae ianona re.babo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "play": [
+    {
+      "target": "kal.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "playing": [
+    {
+      "target": "kal.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "waist": [
+    {
+      "target": "kang.kare",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "please": [
+    {
+      "target": "kasapae",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "please explain slowly": [
+    {
+      "target": "kasapae kasine talatbo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "opened": [
+    {
+      "target": "khuliaha",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "open": [
+    {
+      "target": "khulibo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "will open": [
+    {
+      "target": "khuligen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "hip": [
+    {
+      "target": "ki.singkop",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "book": [
+    {
+      "target": "ki.tap",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "ki.taprang",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i will see a dog tomorrow": [
+    {
+      "target": "kinalo anga achako nigen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i will walk to school tomorrow": [
+    {
+      "target": "kinalo anga schoolchi rama re.angen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "listen": [
+    {
+      "target": "knatima",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "hair": [
+    {
+      "target": "kni",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "lip": [
+    {
+      "target": "ku.chil",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "chin": [
+    {
+      "target": "ku.dipe",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "mouth": [
+    {
+      "target": "ku.sik",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "mustache": [
+    {
+      "target": "ku.simang",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "where are the parents going": [
+    {
+      "target": "ma.a paa rang bachi re.angenga?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what": [
+    {
+      "target": "mai",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "maia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what and how": [
+    {
+      "target": "mai aro maidake",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what am i doing": [
+    {
+      "target": "mai dakenga anga?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what are you doing now": [
+    {
+      "target": "mai dakenga dao na.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what are you doing": [
+    {
+      "target": "mai dakenga na.a?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "na.a mai dakenga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what you": [
+    {
+      "target": "mai na.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what problem": [
+    {
+      "target": "mai neng.nikani",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what is happening in the classroom": [
+    {
+      "target": "mai ong.enga ia classroomo?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what time is now": [
+    {
+      "target": "mai somoi ongenga doa?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what time will the sun set": [
+    {
+      "target": "mai somoio sal napgen?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "how": [
+    {
+      "target": "maidake",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "how do we drink water": [
+    {
+      "target": "maidake anching chi ringa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "how do we sleep": [
+    {
+      "target": "maidake anching tusia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "how am i walking": [
+    {
+      "target": "maidake anga re.enga?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "how and why": [
+    {
+      "target": "maidake aro maina",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "how can he eat rice": [
+    {
+      "target": "maidake bia mi cha.na man.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "how can she go home": [
+    {
+      "target": "maidake bia nokchi re.angen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "how do they go": [
+    {
+      "target": "maidake uamang re.anga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what did": [
+    {
+      "target": "maiko",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what do": [
+    {
+      "target": "maiko",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "who do i see": [
+    {
+      "target": "maiko anga nika?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what did he do": [
+    {
+      "target": "maiko bia daka",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what did he do yesterday": [
+    {
+      "target": "maiko bia mijalo daka",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what is written on the paper": [
+    {
+      "target": "maiko lekao chokga donga?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what do you": [
+    {
+      "target": "maiko na.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what will you": [
+    {
+      "target": "maiko na.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what are you saying": [
+    {
+      "target": "maiko na.a agan.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what did you eat": [
+    {
+      "target": "maiko na.a cha.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what are you thinking": [
+    {
+      "target": "maiko na.a chanchi.enga?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what do you mean": [
+    {
+      "target": "maiko na.a miksonga?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what do you want": [
+    {
+      "target": "maiko nangna nanga?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "why": [
+    {
+      "target": "maina",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "why am i here": [
+    {
+      "target": "maina anga iano?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "why are the stars shining": [
+    {
+      "target": "maina askirang ching.enga?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "why is the cat sleeping": [
+    {
+      "target": "maina mango tusienga?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "why are you": [
+    {
+      "target": "maina na.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "father in law": [
+    {
+      "target": "mama",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "maternal uncle": [
+    {
+      "target": "mama",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "uncle": [
+    {
+      "target": "mama",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "no problem": [
+    {
+      "target": "maming ongja",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "get": [
+    {
+      "target": "man.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "will get": [
+    {
+      "target": "man.gen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "mother in law": [
+    {
+      "target": "mani",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "bison": [
+    {
+      "target": "marong",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "understand": [
+    {
+      "target": "masia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "cannot understand": [
+    {
+      "target": "masija",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "got it": [
+    {
+      "target": "masijok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "cow": [
+    {
+      "target": "masu",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "matchu",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "tiger": [
+    {
+      "target": "matcha",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "leopard": [
+    {
+      "target": "matchapeng",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "deer": [
+    {
+      "target": "matchok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "cow and goat": [
+    {
+      "target": "matchu aro dobok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "cow will eat": [
+    {
+      "target": "matchu cha.gen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "buffalo": [
+    {
+      "target": "matma",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "cat": [
+    {
+      "target": "menggo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "mouse": [
+    {
+      "target": "mengotchi",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "sheep": [
+    {
+      "target": "mes",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "food": [
+    {
+      "target": "mi",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "food and water": [
+    {
+      "target": "mi aro chi",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "yesterday": [
+    {
+      "target": "mijalo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i ran yesterday": [
+    {
+      "target": "mijalo anga kataha",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i ate food yesterday": [
+    {
+      "target": "mijalo anga mi cha.aha",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "face": [
+    {
+      "target": "mikkang",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "eye": [
+    {
+      "target": "mikron",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "eyes": [
+    {
+      "target": "mikron",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "mean": [
+    {
+      "target": "miksonga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "eyebrow": [
+    {
+      "target": "miksram",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "thank you": [
+    {
+      "target": "mitela",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "elephant": [
+    {
+      "target": "mongma",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "elephant and tiger": [
+    {
+      "target": "mongma aro matcha",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you go": [
+    {
+      "target": "n.a re.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "where do you live": [
+    {
+      "target": "na a bano donga?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "na.a bano dong.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what will you do": [
+    {
+      "target": "na. a maiko dakgen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you": [
+    {
+      "target": "na.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you are talking": [
+    {
+      "target": "na.a agan.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you talk and you listen": [
+    {
+      "target": "na.a agana aro na.a knatima",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "do you know me": [
+    {
+      "target": "na.a angko masiama",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you saw me": [
+    {
+      "target": "na.a angko nika",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "will you wait for me": [
+    {
+      "target": "na.a angko senggen ma",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you and me": [
+    {
+      "target": "na.a aro anga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "where will you": [
+    {
+      "target": "na.a bachi",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "where will you eat": [
+    {
+      "target": "na.a bachi cha.gen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "where will you play": [
+    {
+      "target": "na.a bachi kalgen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "where will you go": [
+    {
+      "target": "na.a bachi re.angen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "how old are you": [
+    {
+      "target": "na.a baita bilsi ongjok?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you go to market": [
+    {
+      "target": "na.a bajal re.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "where did you sleep": [
+    {
+      "target": "na.a bano tusia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you play with children": [
+    {
+      "target": "na.a bisarangming ka.la",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "are you busy": [
+    {
+      "target": "na.a busy ma",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you eat and you drink": [
+    {
+      "target": "na.a cha.a aro na.a ringa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "did you eat": [
+    {
+      "target": "na.a cha.aha ma",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "will you eat": [
+    {
+      "target": "na.a cha.gen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you will eat": [
+    {
+      "target": "na.a cha.gen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you drink water": [
+    {
+      "target": "na.a chi ringa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you write a letter": [
+    {
+      "target": "na.a chitti sea",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you are dancing": [
+    {
+      "target": "na.a chrok.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you dance in the festival": [
+    {
+      "target": "na.a chroka festivalo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "did you do": [
+    {
+      "target": "na.a daka",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "do you speak garo language": [
+    {
+      "target": "na.a garo angana man.ama?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you sing a song": [
+    {
+      "target": "na.a git ringa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you came here": [
+    {
+      "target": "na.a iachi rebabo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you are swimming": [
+    {
+      "target": "na.a jro.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you are playing": [
+    {
+      "target": "na.a kal.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you are working": [
+    {
+      "target": "na.a kam ka.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you are running": [
+    {
+      "target": "na.a kat.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you read a book": [
+    {
+      "target": "na.a ki.tap poraia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you are listening": [
+    {
+      "target": "na.a kna.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "how do you eat": [
+    {
+      "target": "na.a maidake cha.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "how do you walk": [
+    {
+      "target": "na.a maidake re.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "how did you come": [
+    {
+      "target": "na.a maidake reba.a?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "how did you drive": [
+    {
+      "target": "na.a maidake sal.a?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what are you": [
+    {
+      "target": "na.a maiko",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what did you do": [
+    {
+      "target": "na.a maiko daka?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what will you play": [
+    {
+      "target": "na.a maiko kalgen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what are you talking about": [
+    {
+      "target": "na.a maiko miksonge aganenga?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "why are you going": [
+    {
+      "target": "na.a maina re.angenga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "why did you come": [
+    {
+      "target": "na.a maina reba.a?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "did you understand": [
+    {
+      "target": "na.a masiaha ma",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you eat food": [
+    {
+      "target": "na.a mi cha.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you eat rice": [
+    {
+      "target": "na.a mi cha.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "did you have lunch": [
+    {
+      "target": "na.a mi chajokma?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "how are you": [
+    {
+      "target": "na.a namenga ma",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "can you give your pen": [
+    {
+      "target": "na.a nangni pen ko on.a mangenma?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you are watching": [
+    {
+      "target": "na.a ni.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you saw": [
+    {
+      "target": "na.a nika",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you see": [
+    {
+      "target": "na.a nika",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you are drawing": [
+    {
+      "target": "na.a noksa sal.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you are reading": [
+    {
+      "target": "na.a porai.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you are studying": [
+    {
+      "target": "na.a porai.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you run fast": [
+    {
+      "target": "na.a rake kata",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you walk and you talk": [
+    {
+      "target": "na.a re.a aro na.a agana",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you will go": [
+    {
+      "target": "na.a re.angen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "are you coming": [
+    {
+      "target": "na.a re.baengama",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you are walking": [
+    {
+      "target": "na.a re.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you will come": [
+    {
+      "target": "na.a rebagen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you can come": [
+    {
+      "target": "na.a rebana mangen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you are singing": [
+    {
+      "target": "na.a ring.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you are painting": [
+    {
+      "target": "na.a rongchi noksa sal.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you are cleaning": [
+    {
+      "target": "na.a rongtalat.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "who are you": [
+    {
+      "target": "na.a sawa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you walk to school": [
+    {
+      "target": "na.a schoolchi rama re.anga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you go to school": [
+    {
+      "target": "na.a schoolchi re.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you are writing": [
+    {
+      "target": "na.a sea.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you are waiting": [
+    {
+      "target": "na.a sengso.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you will die": [
+    {
+      "target": "na.a sigen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you are learning": [
+    {
+      "target": "na.a skie ra.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you are cooking": [
+    {
+      "target": "na.a song.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you are sleeping": [
+    {
+      "target": "na.a tusi.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "na.a tusienga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you sleep": [
+    {
+      "target": "na.a tusia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "why are you there": [
+    {
+      "target": "na.a uachi maina",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "would you like to come with me": [
+    {
+      "target": "na.aba ang baksa repagenma?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what's your aim in life": [
+    {
+      "target": "na.ara janggi tang.ao mai kamko ka.na miksonga?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what about you": [
+    {
+      "target": "na.ara namengama",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "ear": [
+    {
+      "target": "nachil",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "ears": [
+    {
+      "target": "nachil",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "good": [
+    {
+      "target": "nama",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "study well": [
+    {
+      "target": "name dake poraibo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "take care": [
+    {
+      "target": "name dongbo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "study hard": [
+    {
+      "target": "name rake poariabo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am good": [
+    {
+      "target": "namenga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am okay": [
+    {
+      "target": "namenga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am fine": [
+    {
+      "target": "namengaba",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am fine and you": [
+    {
+      "target": "namengaba, na.ara",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "how are you?": [
+    {
+      "target": "namengama",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what is your father name": [
+    {
+      "target": "nang babani bimingko mai minga?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what is your name": [
+    {
+      "target": "nang biming mai",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "which is your favourite color": [
+    {
+      "target": "nang namnikgipa rong.ara mai.a?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "no need": [
+    {
+      "target": "nangja",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "nice to meet you": [
+    {
+      "target": "nangko gronge namnik.aha",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "nangko grongna kusi ong.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "nice to meet you too": [
+    {
+      "target": "nangko gronge namnik.aha angaba",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "thank you very much": [
+    {
+      "target": "nangko mitelbejok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "to you": [
+    {
+      "target": "nangna",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "have a nice day": [
+    {
+      "target": "nangna namgipa sal ong.china",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "your": [
+    {
+      "target": "nangni",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what is your problem": [
+    {
+      "target": "nangni mai neng.nikani?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "yours": [
+    {
+      "target": "nangnin",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "problem": [
+    {
+      "target": "neng.nikani",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "watching": [
+    {
+      "target": "ni.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "see": [
+    {
+      "target": "nia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "watch": [
+    {
+      "target": "nia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "saw": [
+    {
+      "target": "nika",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "house": [
+    {
+      "target": "nok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "home": [
+    {
+      "target": "nokchi",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "younger sister": [
+    {
+      "target": "nono",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "oh okay": [
+    {
+      "target": "oh amm",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "mosque": [
+    {
+      "target": "olakiram",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "give": [
+    {
+      "target": "on.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "no i am free": [
+    {
+      "target": "ongja anga free ong.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "a little busy": [
+    {
+      "target": "ontisa busy",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "good morning": [
+    {
+      "target": "pringnam",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "take": [
+    {
+      "target": "ra",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "take it": [
+    {
+      "target": "rabo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "hard": [
+    {
+      "target": "raka",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "walk": [
+    {
+      "target": "rama rea",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "go": [
+    {
+      "target": "re.ang",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "will come": [
+    {
+      "target": "reangen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "reba.gen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "come": [
+    {
+      "target": "reba",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "came": [
+    {
+      "target": "reba.aha",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "walk and drink": [
+    {
+      "target": "rebo aro ringbo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "welcome": [
+    {
+      "target": "rimchaksoa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "drink": [
+    {
+      "target": "ringa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "friend": [
+    {
+      "target": "ripeng",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "friends": [
+    {
+      "target": "ripengrang",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "stone": [
+    {
+      "target": "ro.ong",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "pouring": [
+    {
+      "target": "ru.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "pour": [
+    {
+      "target": "rua",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "sun": [
+    {
+      "target": "sal",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "good afternoon": [
+    {
+      "target": "saljatchi nam",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "good day": [
+    {
+      "target": "salnam",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "whose shoes are these": [
+    {
+      "target": "sani ia juttarang?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "whose house am i in": [
+    {
+      "target": "sani noko angara?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "who": [
+    {
+      "target": "sawa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "who else is coming to the market": [
+    {
+      "target": "sawa aro bajal reba.enga?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "who is sitting on the chair": [
+    {
+      "target": "sawa chairo asongenga?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "who dances in the festival": [
+    {
+      "target": "sawa festivalo chroka?",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "wait": [
+    {
+      "target": "sengbo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "waiting": [
+    {
+      "target": "sengso.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "soft": [
+    {
+      "target": "so.oma",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "time": [
+    {
+      "target": "somoi",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "cook": [
+    {
+      "target": "song.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "cooking": [
+    {
+      "target": "song.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "tongue": [
+    {
+      "target": "sre",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "explain": [
+    {
+      "target": "talat",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "lock": [
+    {
+      "target": "teka",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "sleep": [
+    {
+      "target": "tusia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "sleep now": [
+    {
+      "target": "tusibo dao",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "to sleep": [
+    {
+      "target": "tusina",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "go to sleep": [
+    {
+      "target": "tusina re.angbo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "that one": [
+    {
+      "target": "ua",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she is talking": [
+    {
+      "target": "ua agan.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she is dancing": [
+    {
+      "target": "ua chrok.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she is swimming": [
+    {
+      "target": "ua jro.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she is playing": [
+    {
+      "target": "ua kal.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she is working": [
+    {
+      "target": "ua kam ka.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she is running": [
+    {
+      "target": "ua kat.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she is listening": [
+    {
+      "target": "ua kna.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "was it good": [
+    {
+      "target": "ua nama ma",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she is watching": [
+    {
+      "target": "ua ni.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she is drawing": [
+    {
+      "target": "ua noksa sal.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she is reading": [
+    {
+      "target": "ua porai.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she is studying": [
+    {
+      "target": "ua porai.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she is walking": [
+    {
+      "target": "ua re.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she is singing": [
+    {
+      "target": "ua ring.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she is painting": [
+    {
+      "target": "ua rongchi noksa sal.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she is cleaning": [
+    {
+      "target": "ua rongtalat.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she is writing": [
+    {
+      "target": "ua sea.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she is waiting": [
+    {
+      "target": "ua sengso.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she is learning": [
+    {
+      "target": "ua skie ra.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she is cooking": [
+    {
+      "target": "ua song.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she is sleeping": [
+    {
+      "target": "ua tusi.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they": [
+    {
+      "target": "uamang",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they are talking": [
+    {
+      "target": "uamang agan.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they are my friends": [
+    {
+      "target": "uamang angni ripengrang",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they are dancing": [
+    {
+      "target": "uamang chrok.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they are swimming": [
+    {
+      "target": "uamang jro.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they are playing": [
+    {
+      "target": "uamang kal.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they are working": [
+    {
+      "target": "uamang kam ka.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they are running": [
+    {
+      "target": "uamang kat.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they are listening": [
+    {
+      "target": "uamang kna.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they eat food": [
+    {
+      "target": "uamang mi cha.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they are watching": [
+    {
+      "target": "uamang ni.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they are drawing": [
+    {
+      "target": "uamang noksa sal.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they are reading": [
+    {
+      "target": "uamang porai.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they are studying": [
+    {
+      "target": "uamang porai.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they are walking": [
+    {
+      "target": "uamang re.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they are singing": [
+    {
+      "target": "uamang ring.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they are painting": [
+    {
+      "target": "uamang rongchi noksa sal.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they are cleaning": [
+    {
+      "target": "uamang rongtalat.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they are writing": [
+    {
+      "target": "uamang sea.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they are waiting": [
+    {
+      "target": "uamang sengso.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they are learning": [
+    {
+      "target": "uamang skie ra.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they are cooking": [
+    {
+      "target": "uamang song.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they are sleeping": [
+    {
+      "target": "uamang tusi.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they sleep": [
+    {
+      "target": "uamang tusia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "take him away": [
+    {
+      "target": "uko rae iyangbo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "teeth": [
+    {
+      "target": "wagam",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "pig": [
+    {
+      "target": "wak",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "good night": [
+    {
+      "target": "walnam",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "newspaper": [
+    {
+      "target": "songbad",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he reads the newspaper": [
+    {
+      "target": "bia songbad poraia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she writes a letter": [
+    {
+      "target": "bia chitti sea",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "television": [
+    {
+      "target": "tv",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we watch television": [
+    {
+      "target": "chinga tv nia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they sing songs": [
+    {
+      "target": "uamang gitrang ringa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "breakfast": [
+    {
+      "target": "mipring",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i eat breakfast": [
+    {
+      "target": "anga mipring cha.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you drink tea": [
+    {
+      "target": "na.a cha ringa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he walks to office": [
+    {
+      "target": "bia office re.anga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she cooks food": [
+    {
+      "target": "bia cha.ani songa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we study english": [
+    {
+      "target": "chinga english poraia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "learn": [
+    {
+      "target": "skie ra.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they learn hindi": [
+    {
+      "target": "uamang hindi skie ra.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "mango": [
+    {
+      "target": "te.gatchu",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "like": [
+    {
+      "target": "namnika",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "ugitan",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i like mangoes": [
+    {
+      "target": "anga te.gatchu namenika",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "apple": [
+    {
+      "target": "epil",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you like apples": [
+    {
+      "target": "na.a epil namenika",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "banana": [
+    {
+      "target": "terik",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he likes bananas": [
+    {
+      "target": "bia terik namenika",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "grape": [
+    {
+      "target": "draka bite",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she likes grapes": [
+    {
+      "target": "bia draka bite namenika",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "orange": [
+    {
+      "target": "narang",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we like oranges": [
+    {
+      "target": "chinga narang namenika",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "guava": [
+    {
+      "target": "kompiram",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they like guavas": [
+    {
+      "target": "uamang kompiram namenika",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "football": [
+    {
+      "target": "robol",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i play football": [
+    {
+      "target": "anga robol kal.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "hockey": [
+    {
+      "target": "hockey",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you play hockey": [
+    {
+      "target": "na.a hockey kal.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "badminton": [
+    {
+      "target": "badminton",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he plays badminton": [
+    {
+      "target": "bia badminton kal.inga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "volleyball": [
+    {
+      "target": "volleyball",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she plays volleyball": [
+    {
+      "target": "bia volleyball kal.inga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "kabaddi": [
+    {
+      "target": "kabaddi",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we play kabaddi": [
+    {
+      "target": "chinga kabaddi kal.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they play basketball": [
+    {
+      "target": "uamang basketball kal.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i read books": [
+    {
+      "target": "anga ki.taprang poraia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "story": [
+    {
+      "target": "golpo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you read stories": [
+    {
+      "target": "na.a golpo poraia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "poem": [
+    {
+      "target": "poedo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "poet": [
+    {
+      "target": "poedo segipa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "reads": [
+    {
+      "target": "porai.ga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he reads poems": [
+    {
+      "target": "bia poedo poraia.ga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she reads novels": [
+    {
+      "target": "bia novels poraia.ga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we read magazines": [
+    {
+      "target": "chinga megazines poraia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they read articles": [
+    {
+      "target": "uamang articles poraia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i write homework": [
+    {
+      "target": "anga homework sea.ga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you write notes": [
+    {
+      "target": "na.a notes sea.ga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he writes essays": [
+    {
+      "target": "bia essay sea.ga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she writes reports": [
+    {
+      "target": "bia reports sea.ga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we write assignments": [
+    {
+      "target": "chinga assignments sea.ga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they write projects": [
+    {
+      "target": "uamang project sea.ga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i speak english": [
+    {
+      "target": "anga english ku.agana",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you speak hindi": [
+    {
+      "target": "na.a hindi ku.agana",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "loud": [
+    {
+      "target": "gam.bea",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "loudly": [
+    {
+      "target": "gam.bee",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he speaks loudly": [
+    {
+      "target": "bia gam.bee aganinga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "sofly": [
+    {
+      "target": "rinoke",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she speaks softly": [
+    {
+      "target": "bia rinoke ku.aganinga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "clear": [
+    {
+      "target": "rongtala",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "clearly": [
+    {
+      "target": "rongtale",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we speak clearly": [
+    {
+      "target": "chinga rongtale agana",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "speak": [
+    {
+      "target": "ku.agana",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they speak politely": [
+    {
+      "target": "uamang ka.sae ku.agana",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have": [
+    {
+      "target": "ango",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "ango donga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "bike": [
+    {
+      "target": "bike",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have a bike": [
+    {
+      "target": "ango bike donga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have a book": [
+    {
+      "target": "ango ki.tap donga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "car": [
+    {
+      "target": "gari",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have a car": [
+    {
+      "target": "ango gari donga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have a friend": [
+    {
+      "target": "ango ripeng donga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "pen": [
+    {
+      "target": "kolom",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have a pen": [
+    {
+      "target": "ango kolom donga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have a sister": [
+    {
+      "target": "ango abi donga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "learning": [
+    {
+      "target": "skie ra.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have been learning english": [
+    {
+      "target": "anga english skie ra.enga hajok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have been living here": [
+    {
+      "target": "anga ianon dong.enga hajok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have been studying": [
+    {
+      "target": "anga porai.enga hajok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have been waiting": [
+    {
+      "target": "anga seng.enga hajok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have been working": [
+    {
+      "target": "anga kam ka.enga hajok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "call": [
+    {
+      "target": "okam",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "called": [
+    {
+      "target": "okamatjok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "calling": [
+    {
+      "target": "okam.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "her": [
+    {
+      "target": "biko",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have called her": [
+    {
+      "target": "anga biko okamatjok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "him": [
+    {
+      "target": "biko",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have called him": [
+    {
+      "target": "anga biko okamatjok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "complete": [
+    {
+      "target": "matchota",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "completed": [
+    {
+      "target": "matchotatjok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have completed my homework": [
+    {
+      "target": "anga angni kamko matchotatjok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "eaten": [
+    {
+      "target": "cha.aha",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have eaten food": [
+    {
+      "target": "anga mi cha.aha",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "finish": [
+    {
+      "target": "bon.ata",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "finished": [
+    {
+      "target": "bon.atjok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have finished my work": [
+    {
+      "target": "anga angni kamko bon.atjok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "news": [
+    {
+      "target": "kobor",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have heard the news": [
+    {
+      "target": "anga kobor knaaha",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "learned": [
+    {
+      "target": "skie ra.jok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have learned english": [
+    {
+      "target": "anga english skie ra.jok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "money": [
+    {
+      "target": "tangka",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have money": [
+    {
+      "target": "ango tangka donga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "seen": [
+    {
+      "target": "nikaha",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have seen her": [
+    {
+      "target": "anga biko nikaha",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have seen him": [
+    {
+      "target": "anga biko nikaha",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have time": [
+    {
+      "target": "ango somoi donga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have two brothers": [
+    {
+      "target": "ango sakgni dada donga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have visited delhi": [
+    {
+      "target": "anga delhi re.angaha",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have work": [
+    {
+      "target": "ango kam donga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "have a sit": [
+    {
+      "target": "asongbo",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "have they arrived": [
+    {
+      "target": "uamang sokba.aha ma",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "arrive": [
+    {
+      "target": "sokbaa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "arrived": [
+    {
+      "target": "sokba.aha",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "have we met before": [
+    {
+      "target": "anching skanga grongaha ma",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "meet": [
+    {
+      "target": "gronga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "met": [
+    {
+      "target": "grongaha",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "have you heard the news": [
+    {
+      "target": "na.a kobor knaaha ma",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "have they finished the project": [
+    {
+      "target": "uamang project matchotataha ma",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "have you read this book": [
+    {
+      "target": "na.a ia ki.tapko poraiaha ma",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "have you learned english": [
+    {
+      "target": "na.a english skie ra.aha ma",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "have you reached home": [
+    {
+      "target": "na.a nokchi sokang.aha ma",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "have you charged your phone": [
+    {
+      "target": "na.a nangni phoneko charge ka.aha ma",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "have you completed your homework": [
+    {
+      "target": "na.a nangni homeworkko matchotataha ma",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she have": [
+    {
+      "target": "bino donga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they have": [
+    {
+      "target": "uamango donga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he have": [
+    {
+      "target": "bino donga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we have": [
+    {
+      "target": "chingo donga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "work": [
+    {
+      "target": "kam",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i work": [
+    {
+      "target": "anga kam ka.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "rice": [
+    {
+      "target": "mirong",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "family": [
+    {
+      "target": "nokdang",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i have a family": [
+    {
+      "target": "ango nokdang donga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "left": [
+    {
+      "target": "jakra",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "right": [
+    {
+      "target": "jakgasi",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "up": [
+    {
+      "target": "kosak",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "down": [
+    {
+      "target": "kama",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "front": [
+    {
+      "target": "mikang",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "with": [
+    {
+      "target": "ming",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "dirty": [
+    {
+      "target": "mitchia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "mind": [
+    {
+      "target": "gisik",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "have you tried before": [
+    {
+      "target": "na.a skang kae nia ha ma",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "before": [
+    {
+      "target": "skang",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "before you": [
+    {
+      "target": "nangna skang",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "after you": [
+    {
+      "target": "nangni jaman",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i will go after you": [
+    {
+      "target": "anga nangni jaman re.angno",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "after": [
+    {
+      "target": "jaman",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i will come": [
+    {
+      "target": "anga reba.gen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he will come": [
+    {
+      "target": "bia reba.gen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "will go": [
+    {
+      "target": "re.angen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "we will go": [
+    {
+      "target": "anching re.angen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i will go": [
+    {
+      "target": "anga re.angen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he will go": [
+    {
+      "target": "bia re.angen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ]
+}
