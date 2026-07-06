@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+ #!/usr/bin/env python3
 
 import os
 import re
@@ -14,8 +14,9 @@ import torch.nn as nn
 from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 
+
 # =========================================================
-# ✏   CONFIG — edit these three lines to connect your data
+# ✏   CONFIG — edit these three lines to connect your data
 # =========================================================
 
 MODEL_DIR = "saved_garo_translator"
@@ -27,10 +28,11 @@ MODEL_DIR = "saved_garo_translator"
 # 1. Open your Google Sheet → File → Share → "Anyone with the link can view"
 # 2. Copy the Sheet ID from the URL:
 #    https://docs.google.com/spreadsheets/d/  <<<SHEET_ID>>>  /edit
-# 3. Paste the ID below and uncomment the two lines:
+# 3. Copy the gid (grid ID) from the URL (e.g., if it's the first sheet, it's usually 0).
+# 4. Paste the ID and gid below and uncomment the two lines:
 #
 # GSHEET_ID   = "YOUR_SHEET_ID_HERE"
-MAIN_DATA   = f"https://docs.google.com/spreadsheets/d/148bbVcpGGXo9bRsU4Ta-ME36-oKxuqLvLjZtrIXqYuo/export?format=csv&gid=0"
+MAIN_DATA   = f"https://docs.google.com/spreadsheets/d/1k-ucejVa3xuhSZfFU6ZaSael0DxzkPOW7X_Zsq7ekWM/export?format=csv&gid=0" # Verify sharing settings and gid
 
 # ── CONTRIBUTION STORAGE ━━━━━━━━━━━━━━━━━━━━━━━━━
 # OPTION A: save to a local CSV (default)
@@ -183,14 +185,23 @@ def ai_translate(text):
 
 
 def safe_ai_translate(text):
-    result = ai_translate(text)
+    try:
+        result = ai_translate(text)
+    except Exception as e:
+        print("AI fallback error:", e)
+        return None
+
     bad = {"anga", "dada", "na.a", "mi"}
+
     if not result.strip():
         return None
+
     if result.strip() in bad and len(text.split()) > 1:
         return None
+
     if len(result.split()) < max(1, len(text.split()) // 2):
         return None
+
     return result
 
 
@@ -261,30 +272,98 @@ def translate(text: str) -> dict:
         "message": "Not in the phrasebook yet. Please use Contribute to add this translation!"
     }
 
+# =========================================================
+# GSPREAD HELPERS (only used if USE_GSPREAD_* = True)
+# =========================================================
+
+def _get_gspread_sheet(sheet_name: str):
+    import gspread
+    from google.oauth2.service_account import Credentials
+    scopes = ["https://www.googleapis.com/auth/spreadsheets"]
+    creds = Credentials.from_service_account_file(GSPREAD_CREDENTIALS_FILE, scopes=scopes)
+    gc = gspread.authorize(creds)
+    return gc.open(sheet_name).sheet1
+
+
+def append_to_sheet(sheet_name: str, row: list):
+    sheet = _get_gspread_sheet(sheet_name)
+    sheet.append_row(row)
 
 # =========================================================
-# FLASK WEB APP
+# CONTRIBUTION + FEEDBACK WRITERS
 # =========================================================
 
-app = Flask(__name__, static_folder='.')
+def save_contribution(source: str, target: str):
+    source = normalize_text(source)
+    target = normalize_text(target)
+    timestamp = datetime.datetime.utcnow().isoformat()
+    row = [source, target, "no", timestamp]
+
+    if USE_GSPREAD_CONTRIBUTE:
+        append_to_sheet(CONTRIBUTION_SHEET_NAME, row)
+    else:
+        write_header = not os.path.exists(CONTRIBUTION_FILE)
+        with open(CONTRIBUTION_FILE, "a", newline="", encoding="utf-8") as f:
+            w = csv.writer(f)
+            if write_header:
+                w.writerow(["source", "target", "verified", "timestamp"])
+            w.writerow(row)
+
+
+def save_feedback(rating: int, message: str):
+    timestamp = datetime.datetime.utcnow().isoformat()
+    row = [rating, message, timestamp]
+
+    if USE_GSPREAD_FEEDBACK:
+        append_to_sheet(FEEDBACK_SHEET_NAME, row)
+    else:
+        write_header = not os.path.exists(FEEDBACK_FILE)
+        with open(FEEDBACK_FILE, "a", newline="", encoding="utf-8") as f:
+            w = csv.writer(f)
+            if write_header:
+                w.writerow(["rating", "message", "timestamp"])
+            w.writerow(row)
+
+
+print(translate("sometime"))
+
+# =========================================================
+# FLASK HOSTING SECTION (Appended at Bottom)
+# =========================================================
+import threading
+import time
+import urllib.request
+
+app = Flask(__name__, static_folder=".")
 CORS(app)
 
-@app.route('/')
+@app.route("/")
 def index():
-    return send_from_directory('.', 'garo-translator.html')
+    return send_from_directory(".", "garo-translator.html")
 
-@app.route('/api/translate', methods=['POST'])
+@app.route("/api/translate", methods=["POST"])
 def api_translate():
-    data = request.get_json(silent=True) or {}
-    text = (data.get('text') or '').strip()
+    data = request.get_json(force=True)
+    text = (data.get("text") or "").strip()
     if not text:
-        return jsonify({'error': 'No text provided'}), 400
-    return jsonify(translate(text))
+        return jsonify({"error": "No text provided"}), 400
+    result = translate(text)
+    return jsonify(result)
 
-@app.route('/health')
-def health():
-    return jsonify({'ok': True, 'model_loaded': True, 'device': DEVICE})
+def run_flask():
+    # Using port 5006 to ensure it's free
+    app.run(host='0.0.0.0', port=5006, debug=False, use_reloader=False)
 
-if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5006))
-    app.run(host='0.0.0.0', port=port, debug=False)
+# Start Flask in background thread
+threading.Thread(target=run_flask, daemon=True).start()
+
+# Fetch Public IP and Start Tunnel
+time.sleep(2)
+try:
+    endpoint_ip = urllib.request.urlopen('https://ipv4.icanhazip.com').read().decode('utf8').strip()
+    print(f"\nEndpoint IP (Tunnel Password): {endpoint_ip}")
+except:
+    print("\nCould not fetch external IP.")
+
+# Execute localtunnel shell command
+!npx localtunnel --port 5006
