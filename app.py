@@ -330,9 +330,9 @@ print(translate("sometime"))
 # =========================================================
 # FLASK HOSTING SECTION (Appended at Bottom)
 # =========================================================
-import threading
-import time
-import urllib.request
+# =========================================================
+# FLASK WEB APP
+# =========================================================
 
 app = Flask(__name__, static_folder=".")
 CORS(app)
@@ -343,27 +343,27 @@ def index():
 
 @app.route("/api/translate", methods=["POST"])
 def api_translate():
-    data = request.get_json(force=True)
-    text = (data.get("text") or "").strip()
-    if not text:
-        return jsonify({"error": "No text provided"}), 400
-    result = translate(text)
-    return jsonify(result)
+    try:
+        data = request.get_json(silent=True) or {}
+        text = (data.get("text") or "").strip()
 
-def run_flask():
-    # Using port 5006 to ensure it's free
-    app.run(host='0.0.0.0', port=5006, debug=False, use_reloader=False)
+        if not text:
+            return jsonify({"error": "No text provided"}), 400
 
-# Start Flask in background thread
-threading.Thread(target=run_flask, daemon=True).start()
+        return jsonify(translate(text))
 
-# Fetch Public IP and Start Tunnel
-time.sleep(2)
-try:
-    endpoint_ip = urllib.request.urlopen('https://ipv4.icanhazip.com').read().decode('utf8').strip()
-    print(f"\nEndpoint IP (Tunnel Password): {endpoint_ip}")
-except:
-    print("\nCould not fetch external IP.")
+    except Exception as e:
+        print("API TRANSLATE ERROR:", e)
+        return jsonify({
+            "result": "",
+            "match_type": "no match",
+            "message": "Translator server error. Please try again."
+        }), 200
 
-# Execute localtunnel shell command
-!npx localtunnel --port 5006
+@app.route("/health")
+def health():
+    return jsonify({"ok": True, "device": DEVICE})
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5006))
+    app.run(host="0.0.0.0", port=port, debug=False)
