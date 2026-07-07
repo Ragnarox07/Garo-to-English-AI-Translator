@@ -28,7 +28,7 @@
   textarea{font-family:'Inter',sans-serif;}
   textarea#srcText{flex:1;border:none;outline:none;resize:none;font-size:18px;line-height:1.5;color:var(--charcoal);padding:10px 0;min-height:54px;background:transparent;}
   textarea#srcText::placeholder{color:#b5ad9b;}
-  .meta-row{display:flex;justify-content:space-between;align-items:center;padding:8px 18px 8px 64px;font-size:12px;color:#9c937e;gap:10px;}
+  .meta-row{display:none;justify-content:space-between;align-items:center;padding:8px 18px 8px 64px;font-size:12px;color:#9c937e;gap:10px;}
   .meta-row span#wordCount{font-family:'JetBrains Mono',monospace;white-space:nowrap;}
   .action-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;padding:12px 18px 16px 64px;border-bottom:1px solid var(--line);background:#fffaf0;}
   .btn{border:none;border-radius:10px;padding:10px 16px;font-weight:700;font-size:13px;cursor:pointer;transition:transform .12s ease,opacity .12s ease,background .12s ease;}
@@ -103,7 +103,7 @@
       <div class="lang-tag">EN</div>
       <textarea id="srcText" placeholder="Type something to translate…" rows="1"></textarea>
     </div>
-    <div class="meta-row"><span id="matchType" style="display:none;>—</span><span id="wordCount">0 words</span></div>
+    <div class="meta-row"><span id="matchType" style="display:none;">—</span><span id="wordCount">0 words</span></div>
     <div class="action-row">
       <button class="btn btn-primary" id="translateBtn">Translate</button>
       <button class="btn btn-secondary" id="clearBtn">Clear</button>
@@ -199,7 +199,7 @@
       resultText.className = data.match_type === 'no match' ? 'unconfident' : '';
       matchType.textContent = data.match_type || '—';
       copyBtn.style.display = data.result ? 'inline-block' : 'none';
-      translateStatus.textContent = data.match_type === 'no match' ? 'Please contribute the correct translation.' : 'Done';
+      translateStatus.textContent = data.match_type === 'no match' ? 'Please contribute the correct translation.' : '';
     }catch(err){
       resultText.textContent = 'Could not connect to the translator server.';
       resultText.className = 'unconfident';
