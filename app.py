@@ -78,6 +78,30 @@ def normalize_text(text: str) -> str:
     return text
 
 
+def split_terminal_punctuation(text: str):
+    """Separate ending punctuation from text."""
+    text = str(text).strip()
+    match = re.search(r"([?.!,]+)$", text)
+
+    if not match:
+        return text, ""
+
+    punctuation = match.group(1)
+    clean_text = text[:match.start()].rstrip()
+    return clean_text, punctuation
+
+
+def restore_terminal_punctuation(result: str, punctuation: str) -> str:
+    """Restore the user's ending punctuation without duplication."""
+    result = str(result).rstrip()
+
+    if not result or not punctuation:
+        return result
+
+    result = re.sub(r"[?.!,]+$", "", result).rstrip()
+    return result + punctuation
+
+
 def tokenize(text: str) -> List[str]:
     text = normalize_text(text)
     return re.findall(r"[a-zA-Z]+(?:[.'\u00b7][a-zA-Z]+)?|[0-9]+|[?.!,]", text)
@@ -212,64 +236,158 @@ def name_pattern_translate(text):
     return None
 
 
+
+# English helper words that should not be copied unchanged into Garo output.
+# They are skipped only when no longer phrase/sentence translation matched them.
+UNTRANSLATED_HELPER_WORDS = {
+    "am", "is", "are", "was", "were",
+    "be", "been", "being",
+    "do", "does", "did",
+    "have", "has", "had",
+    "a", "an", "the"
+}
+
+
+def remove_leftover_english_helpers(result: str) -> str:
+    """
+    Remove untranslated English helper words left in a mixed output.
+
+    Example:
+        "mai are na.a" -> "mai na.a"
+
+    This runs after phrase translation, so valid full translations stored
+    in exact_memory are not changed before matching.
+    """
+    words = str(result).split()
+    cleaned = [
+        word for word in words
+        if normalize_text(word).strip("?.!,") not in UNTRANSLATED_HELPER_WORDS
+    ]
+    return " ".join(cleaned)
+
+
 def smart_phrase_translate(text):
     tokens = re.split(r"\b(and|but|or)\b", text)
     final = []
     any_match = False
+
+    connectors = {
+        "and": "aro",
+        "but": "indiba",
+        "or": "ba"
+    }
+
     for part in tokens:
         part = part.strip()
+
         if not part:
             continue
+
+        if part in connectors:
+            final.append(connectors[part])
+            any_match = True
+            continue
+
         if part in exact_memory:
             final.append(exact_memory[part])
             any_match = True
             continue
+
         words = part.split()
         i = 0
+
         while i < len(words):
             matched = False
+
+            # Longest stored sentence/phrase/word first
             for size in range(min(6, len(words) - i), 0, -1):
                 chunk = " ".join(words[i:i + size])
+
                 if chunk in exact_memory:
                     final.append(exact_memory[chunk])
                     i += size
                     matched = True
                     any_match = True
                     break
+
             if not matched:
-                final.append(words[i])
+                word = words[i]
+                clean_word = normalize_text(word).strip("?.!,")
+
+                # Do not copy untranslated English helper words.
+                if clean_word not in UNTRANSLATED_HELPER_WORDS:
+                    final.append(word)
+
                 i += 1
-    return " ".join(final), any_match
+
+    result = remove_leftover_english_helpers(" ".join(final))
+    return result, any_match
 
 
 def translate(text: str) -> dict:
-    original = text.strip()
+    original = str(text).strip()
+
+    # Treat "what?" and "what" as the same text for matching.
+    clean_original, terminal_punctuation = split_terminal_punctuation(original)
+
+    if not clean_original:
+        return {
+            "result": terminal_punctuation,
+            "match_type": "punctuation only"
+        }
 
     # 1. Name pattern
-    name_result = name_pattern_translate(original)
+    name_result = name_pattern_translate(clean_original)
     if name_result:
-        return {"result": name_result, "match_type": "name pattern"}
+        return {
+            "result": restore_terminal_punctuation(
+                name_result,
+                terminal_punctuation
+            ),
+            "match_type": "name pattern"
+        }
 
-    normalized = normalize_text(original)
+    normalized = normalize_text(clean_original)
 
     # 2. Exact memory match
     if normalized in exact_memory:
-        return {"result": exact_memory[normalized], "match_type": "exact match"}
+        return {
+            "result": restore_terminal_punctuation(
+                exact_memory[normalized],
+                terminal_punctuation
+            ),
+            "match_type": "exact match"
+        }
 
     # 3. Smart phrase / chunk match
     phrase_result, any_match = smart_phrase_translate(normalized)
     if any_match:
-        return {"result": phrase_result, "match_type": "phrase match"}
+        return {
+            "result": restore_terminal_punctuation(
+                phrase_result,
+                terminal_punctuation
+            ),
+            "match_type": "phrase match"
+        }
 
     # 4. AI transformer fallback
     ai_result = safe_ai_translate(normalized)
     if ai_result:
-        return {"result": ai_result, "match_type": "AI translation"}
+        return {
+            "result": restore_terminal_punctuation(
+                ai_result,
+                terminal_punctuation
+            ),
+            "match_type": "AI translation"
+        }
 
     return {
         "result": "",
         "match_type": "no match",
-        "message": "Not in the phrasebook yet. Please use Contribute to add this translation!"
+        "message": (
+            "Not in the translator yet. "
+            "Please use Contribute to add this translation!"
+        )
     }
 
 # =========================================================
@@ -325,8 +443,7 @@ def save_feedback(rating: int, message: str):
             w.writerow(row)
 
 
-print(translate("sometime"))
-
+print(translate("i have been playing game"))
 # =========================================================
 # FLASK HOSTING SECTION (Appended at Bottom)
 # =========================================================
