@@ -73,7 +73,7 @@
   ],
   "tell me what are you doing": [
     {
-      "target": "agan angna na.a mai dakenga",
+      "target": "agan angna na.a mai dak.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -81,7 +81,21 @@
   ],
   "tell me what are you playing": [
     {
-      "target": "agan angna maiko na.a kalenga",
+      "target": "agan angna maiko na.a kal.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "talk": [
+    {
+      "target": "agana",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "golpowa",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -295,7 +309,7 @@
   ],
   "i am talking": [
     {
-      "target": "anga golpoenga",
+      "target": "anga agan.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -303,7 +317,7 @@
   ],
   "i talk and i listen": [
     {
-      "target": "anga golpoa aro anga knatima",
+      "target": "anga agana aro anga knatima",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -439,7 +453,7 @@
   ],
   "i am dancing": [
     {
-      "target": "anga chrokenga",
+      "target": "anga chrok.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -455,7 +469,7 @@
   ],
   "i am eating now": [
     {
-      "target": "anga dao chaenga",
+      "target": "anga dao cha.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -463,13 +477,13 @@
   ],
   "i am working now": [
     {
-      "target": "anga dao kam kaenga",
+      "target": "anga dao kam ka.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
     },
     {
-      "target": "anga kaam kaenga dao",
+      "target": "anga kaam ka.enga dao",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -573,7 +587,7 @@
   ],
   "i have been here for a long time": [
     {
-      "target": "anga iano ru.ta somoionin dongenga",
+      "target": "anga iano ru.ta somoionin dong.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -613,7 +627,7 @@
   ],
   "i am swimming": [
     {
-      "target": "anga jroenga",
+      "target": "anga jro.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -645,7 +659,7 @@
   ],
   "i am playing": [
     {
-      "target": "anga kalenga",
+      "target": "anga kal.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -669,7 +683,7 @@
   ],
   "i am working": [
     {
-      "target": "anga kam kaenga",
+      "target": "anga kam ka.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -685,7 +699,7 @@
   ],
   "i am running": [
     {
-      "target": "anga katenga",
+      "target": "anga kat.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -701,7 +715,7 @@
   ],
   "i am happy": [
     {
-      "target": "anga katchaenga",
+      "target": "anga kusi ong.a",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -773,7 +787,7 @@
   ],
   "i am listening": [
     {
-      "target": "anga knaenga",
+      "target": "anga kna.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -789,7 +803,7 @@
   ],
   "i am doing nothing": [
     {
-      "target": "anga mamingba dakjaenga",
+      "target": "anga mamingba dakja.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -843,7 +857,7 @@
       "priority": 1
     },
     {
-      "target": "anga mi chaenga",
+      "target": "anga mi cha.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -891,7 +905,7 @@
   ],
   "i am eating rice": [
     {
-      "target": "anga mi chaenga",
+      "target": "anga mi cha.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -963,7 +977,7 @@
   ],
   "i am talking to you": [
     {
-      "target": "anga nangko aganenga",
+      "target": "anga nangko agan.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -979,7 +993,7 @@
   ],
   "i love you": [
     {
-      "target": "anga nangna kasa",
+      "target": "anga nangna ka.sa",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -987,7 +1001,7 @@
   ],
   "i am just resting": [
     {
-      "target": "anga neng.take dongenga",
+      "target": "anga neng.take dong.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -995,7 +1009,7 @@
   ],
   "i am watching": [
     {
-      "target": "anga nienga",
+      "target": "anga ni.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1043,7 +1057,21 @@
   ],
   "i am drawing": [
     {
-      "target": "anga noksa salenga",
+      "target": "anga noksa sal.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am hungry": [
+    {
+      "target": "anga okrienga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "angade okrienga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1051,7 +1079,7 @@
   ],
   "i just came recently": [
     {
-      "target": "anga ontisa somoioni dongenga",
+      "target": "anga ontisa somoioni dong.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1059,7 +1087,7 @@
   ],
   "i am reading": [
     {
-      "target": "anga poraienga",
+      "target": "anga porai.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1067,7 +1095,7 @@
   ],
   "i am studying": [
     {
-      "target": "anga poraienga",
+      "target": "anga porai.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1083,7 +1111,7 @@
   ],
   "i am walking": [
     {
-      "target": "anga reenga",
+      "target": "anga re.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1091,7 +1119,7 @@
   ],
   "i am singing": [
     {
-      "target": "anga ringenga",
+      "target": "anga ring.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1107,7 +1135,7 @@
   ],
   "i am painting": [
     {
-      "target": "anga rongchi noksa salenga",
+      "target": "anga rongchi noksa sal.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1115,7 +1143,7 @@
   ],
   "i am cleaning": [
     {
-      "target": "anga rongtalatenga",
+      "target": "anga rongtalat.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1171,7 +1199,7 @@
   ],
   "i am writing": [
     {
-      "target": "anga seaenga",
+      "target": "anga sea.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1179,7 +1207,7 @@
   ],
   "i am waiting": [
     {
-      "target": "anga sengsoenga",
+      "target": "anga sengso.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1187,7 +1215,7 @@
   ],
   "i am learning": [
     {
-      "target": "anga skie raenga",
+      "target": "anga skie ra.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1203,7 +1231,7 @@
   ],
   "i am cooking": [
     {
-      "target": "anga songenga",
+      "target": "anga song.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1235,7 +1263,7 @@
   ],
   "i am sleeping": [
     {
-      "target": "anga tusienga",
+      "target": "anga tusi.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1267,7 +1295,7 @@
   ],
   "i am eating food while watching television": [
     {
-      "target": "anga tv nie ming mi chaenga",
+      "target": "anga tv nie ming mi cha.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1292,14 +1320,6 @@
   "i'm all sweaty": [
     {
       "target": "angade kramchi rarajok",
-      "type": "sentence",
-      "meaning": "",
-      "priority": 1
-    }
-  ],
-  "i am hungry": [
-    {
-      "target": "angade okrienga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1487,7 +1507,7 @@
   ],
   "siting": [
     {
-      "target": "asongenga",
+      "target": "asong.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1559,7 +1579,7 @@
   ],
   "where are the birds flying": [
     {
-      "target": "bachi doarang bilangenga?",
+      "target": "bachi doarang bilang.enga?",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1615,7 +1635,7 @@
   ],
   "where is the river flowing": [
     {
-      "target": "bachina chiringni chi jokaenga?",
+      "target": "bachina chiringni chi joka.enga?",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1655,7 +1675,7 @@
   ],
   "which book am i reading": [
     {
-      "target": "badia ki.tapko anga poraienga?",
+      "target": "badia ki.tapko anga porai.enga?",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1687,7 +1707,7 @@
   ],
   "how much food is left": [
     {
-      "target": "baita cha.ani dongkuenga?",
+      "target": "baita cha.ani dongku.enga?",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1783,7 +1803,7 @@
   ],
   "how long have you been here": [
     {
-      "target": "basakoni na.a iano dongenga",
+      "target": "basakoni na.a iano dong.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1813,7 +1833,7 @@
   ],
   "he is talking": [
     {
-      "target": "bia aganenga",
+      "target": "bia agan.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1829,7 +1849,7 @@
   ],
   "he is eating an apple": [
     {
-      "target": "bia apple chaenga",
+      "target": "bia apple cha.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1861,7 +1881,7 @@
   ],
   "he is dancing": [
     {
-      "target": "bia chrokenga",
+      "target": "bia chrok.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1869,7 +1889,7 @@
   ],
   "he is swimming": [
     {
-      "target": "bia jroenga",
+      "target": "bia jro.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1877,7 +1897,7 @@
   ],
   "he is playing": [
     {
-      "target": "bia kalenga",
+      "target": "bia kal.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1885,7 +1905,7 @@
   ],
   "he is working": [
     {
-      "target": "bia kam kaenga",
+      "target": "bia kam ka.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1893,7 +1913,7 @@
   ],
   "he is running": [
     {
-      "target": "bia katenga",
+      "target": "bia kat.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1901,7 +1921,7 @@
   ],
   "he is listening": [
     {
-      "target": "bia knaenga",
+      "target": "bia kna.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1925,7 +1945,7 @@
   ],
   "he is watching": [
     {
-      "target": "bia nienga",
+      "target": "bia ni.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1933,7 +1953,7 @@
   ],
   "he is drawing": [
     {
-      "target": "bia noksa salenga",
+      "target": "bia noksa sal.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1941,7 +1961,7 @@
   ],
   "he is reading": [
     {
-      "target": "bia poraienga",
+      "target": "bia porai.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1949,7 +1969,7 @@
   ],
   "he is studying": [
     {
-      "target": "bia poraienga",
+      "target": "bia porai.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1957,7 +1977,7 @@
   ],
   "he is walking": [
     {
-      "target": "bia reenga",
+      "target": "bia re.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1965,7 +1985,7 @@
   ],
   "he is singing": [
     {
-      "target": "bia ringenga",
+      "target": "bia ring.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1973,7 +1993,7 @@
   ],
   "he is painting": [
     {
-      "target": "bia rongchi noksa salenga",
+      "target": "bia rongchi noksa sal.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1981,7 +2001,7 @@
   ],
   "he is cleaning": [
     {
-      "target": "bia rongtalatenga",
+      "target": "bia rongtalat.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -1997,7 +2017,7 @@
   ],
   "he is writing": [
     {
-      "target": "bia seaenga",
+      "target": "bia sea.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -2005,7 +2025,7 @@
   ],
   "he is waiting": [
     {
-      "target": "bia sengsoenga",
+      "target": "bia sengso.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -2013,7 +2033,7 @@
   ],
   "he is learning": [
     {
-      "target": "bia skie raenga",
+      "target": "bia skie ra.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -2021,7 +2041,7 @@
   ],
   "he is cooking": [
     {
-      "target": "bia songenga",
+      "target": "bia song.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -2029,7 +2049,7 @@
   ],
   "he is sleeping": [
     {
-      "target": "bia tusienga",
+      "target": "bia tusi.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -2069,7 +2089,7 @@
   ],
   "they went to the mosque": [
     {
-      "target": "bisong olakiramchi re.anga",
+      "target": "bisong olakiramchi re.anga.",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -2187,7 +2207,7 @@
   ],
   "we are talking": [
     {
-      "target": "chinga aganenga",
+      "target": "chinga agan.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -2195,7 +2215,7 @@
   ],
   "we are dancing": [
     {
-      "target": "chinga chrokenga",
+      "target": "chinga chrok.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -2203,7 +2223,7 @@
   ],
   "we are swimming": [
     {
-      "target": "chinga jroenga",
+      "target": "chinga jro.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -2211,7 +2231,7 @@
   ],
   "we are playing": [
     {
-      "target": "chinga kalenga",
+      "target": "chinga kal.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -2219,7 +2239,7 @@
   ],
   "we are working": [
     {
-      "target": "chinga kam kaenga",
+      "target": "chinga kam ka.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -2227,7 +2247,7 @@
   ],
   "we are running": [
     {
-      "target": "chinga katenga",
+      "target": "chinga kat.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -2235,7 +2255,7 @@
   ],
   "we are listening": [
     {
-      "target": "chinga knaenga",
+      "target": "chinga kna.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -2243,7 +2263,7 @@
   ],
   "we are watching": [
     {
-      "target": "chinga nienga",
+      "target": "chinga ni.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -2251,7 +2271,7 @@
   ],
   "we are drawing": [
     {
-      "target": "chinga noksa salenga",
+      "target": "chinga noksa sal.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -2259,7 +2279,7 @@
   ],
   "we are reading": [
     {
-      "target": "chinga poraienga",
+      "target": "chinga porai.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -2267,7 +2287,7 @@
   ],
   "we are studying": [
     {
-      "target": "chinga poraienga",
+      "target": "chinga porai.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -2275,7 +2295,7 @@
   ],
   "we are walking": [
     {
-      "target": "chinga reenga",
+      "target": "chinga re.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -2283,7 +2303,7 @@
   ],
   "we are singing": [
     {
-      "target": "chinga ringenga",
+      "target": "chinga ring.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -2291,7 +2311,7 @@
   ],
   "we are painting": [
     {
-      "target": "chinga rongchi noksa salenga",
+      "target": "chinga rongchi noksa sal.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -2299,7 +2319,7 @@
   ],
   "we are cleaning": [
     {
-      "target": "chinga rongtalatenga",
+      "target": "chinga rongtalat.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -2307,7 +2327,7 @@
   ],
   "we are writing": [
     {
-      "target": "chinga seaenga",
+      "target": "chinga sea.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -2315,7 +2335,7 @@
   ],
   "we are waiting": [
     {
-      "target": "chinga sengsoenga",
+      "target": "chinga sengso.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -2323,7 +2343,7 @@
   ],
   "we are learning": [
     {
-      "target": "chinga skie raenga",
+      "target": "chinga skie ra.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -2331,7 +2351,7 @@
   ],
   "we are cooking": [
     {
-      "target": "chinga songenga",
+      "target": "chinga song.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -2339,7 +2359,7 @@
   ],
   "we are sleeping": [
     {
-      "target": "chinga tusienga",
+      "target": "chinga tusi.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -2653,7 +2673,7 @@
       "priority": 1
     }
   ],
-  "nice to hear that": [
+  "mice to hear that": [
     {
       "target": "ia katta ko knae kusi ong.a",
       "type": "sentence",
@@ -2929,7 +2949,7 @@
   ],
   "playing": [
     {
-      "target": "kalenga",
+      "target": "kal.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -3147,7 +3167,7 @@
   ],
   "what is happening in the classroom": [
     {
-      "target": "mai ongenga ia classroomo?",
+      "target": "mai ong.enga ia classroomo?",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -3195,7 +3215,7 @@
   ],
   "how am i walking": [
     {
-      "target": "maidake anga reenga?",
+      "target": "maidake anga re.enga?",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -3299,7 +3319,7 @@
   ],
   "what are you saying": [
     {
-      "target": "maiko na.a aganenga",
+      "target": "maiko na.a agan.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -3321,7 +3341,7 @@
   ],
   "what are you thinking": [
     {
-      "target": "maiko na.a chanchienga?",
+      "target": "maiko na.a chanchi.enga?",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -3361,7 +3381,7 @@
   ],
   "why are the stars shining": [
     {
-      "target": "maina askirang chingenga?",
+      "target": "maina askirang ching.enga?",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -3701,7 +3721,7 @@
   ],
   "you are talking": [
     {
-      "target": "na.a aganenga",
+      "target": "na.a agan.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -3869,7 +3889,7 @@
   ],
   "you are dancing": [
     {
-      "target": "na.a chrokenga",
+      "target": "na.a chrok.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -3917,7 +3937,7 @@
   ],
   "you are swimming": [
     {
-      "target": "na.a jroenga",
+      "target": "na.a jro.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -3925,7 +3945,7 @@
   ],
   "you are playing": [
     {
-      "target": "na.a kalenga",
+      "target": "na.a kal.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -3933,7 +3953,7 @@
   ],
   "you are working": [
     {
-      "target": "na.a kam kaenga",
+      "target": "na.a kam ka.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -3941,7 +3961,7 @@
   ],
   "you are running": [
     {
-      "target": "na.a katenga",
+      "target": "na.a kat.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -3957,7 +3977,7 @@
   ],
   "you are listening": [
     {
-      "target": "na.a knaenga",
+      "target": "na.a kna.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -4093,7 +4113,7 @@
   ],
   "you are watching": [
     {
-      "target": "na.a nienga",
+      "target": "na.a ni.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -4117,7 +4137,7 @@
   ],
   "you are drawing": [
     {
-      "target": "na.a noksa salenga",
+      "target": "na.a noksa sal.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -4125,7 +4145,7 @@
   ],
   "you are reading": [
     {
-      "target": "na.a poraienga",
+      "target": "na.a porai.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -4133,7 +4153,7 @@
   ],
   "you are studying": [
     {
-      "target": "na.a poraienga",
+      "target": "na.a porai.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -4173,7 +4193,7 @@
   ],
   "you are walking": [
     {
-      "target": "na.a reenga",
+      "target": "na.a re.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -4197,7 +4217,7 @@
   ],
   "you are singing": [
     {
-      "target": "na.a ringenga",
+      "target": "na.a ring.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -4205,7 +4225,7 @@
   ],
   "you are painting": [
     {
-      "target": "na.a rongchi noksa salenga",
+      "target": "na.a rongchi noksa sal.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -4213,7 +4233,7 @@
   ],
   "you are cleaning": [
     {
-      "target": "na.a rongtalatenga",
+      "target": "na.a rongtalat.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -4245,7 +4265,7 @@
   ],
   "you are writing": [
     {
-      "target": "na.a seaenga",
+      "target": "na.a sea.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -4253,7 +4273,7 @@
   ],
   "you are waiting": [
     {
-      "target": "na.a sengsoenga",
+      "target": "na.a sengso.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -4269,7 +4289,7 @@
   ],
   "you are learning": [
     {
-      "target": "na.a skie raenga",
+      "target": "na.a skie ra.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -4277,13 +4297,19 @@
   ],
   "you are cooking": [
     {
-      "target": "na.a songenga",
+      "target": "na.a song.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
     }
   ],
   "you are sleeping": [
+    {
+      "target": "na.a tusi.enga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
     {
       "target": "na.a tusienga",
       "type": "sentence",
@@ -4531,7 +4557,7 @@
   ],
   "watching": [
     {
-      "target": "nienga",
+      "target": "ni.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -4611,7 +4637,7 @@
   ],
   "no i am free": [
     {
-      "target": "ongja anga free ongenga",
+      "target": "ongja anga free ong.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -4668,20 +4694,6 @@
   "go": [
     {
       "target": "re.ang",
-      "type": "sentence",
-      "meaning": "",
-      "priority": 1
-    }
-  ],
-  "will come": [
-    {
-      "target": "reangen",
-      "type": "sentence",
-      "meaning": "",
-      "priority": 1
-    },
-    {
-      "target": "reba.gen",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -4753,7 +4765,7 @@
   ],
   "pouring": [
     {
-      "target": "ruenga",
+      "target": "ru.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -4817,7 +4829,7 @@
   ],
   "who else is coming to the market": [
     {
-      "target": "sawa aro bajal rebaenga?",
+      "target": "sawa aro bajal reba.enga?",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -4849,7 +4861,7 @@
   ],
   "waiting": [
     {
-      "target": "sengsoenga",
+      "target": "sengso.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -4881,7 +4893,7 @@
   ],
   "cooking": [
     {
-      "target": "songenga",
+      "target": "song.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -4945,7 +4957,7 @@
   ],
   "that one": [
     {
-      "target": "uko",
+      "target": "ua",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -4953,7 +4965,7 @@
   ],
   "she is talking": [
     {
-      "target": "ua aganenga",
+      "target": "ua agan.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -4961,7 +4973,7 @@
   ],
   "she is dancing": [
     {
-      "target": "ua chrokenga",
+      "target": "ua chrok.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -4969,7 +4981,7 @@
   ],
   "she is swimming": [
     {
-      "target": "ua jroenga",
+      "target": "ua jro.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -4977,7 +4989,7 @@
   ],
   "she is playing": [
     {
-      "target": "ua kalenga",
+      "target": "ua kal.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -4985,7 +4997,7 @@
   ],
   "she is working": [
     {
-      "target": "ua kam kaenga",
+      "target": "ua kam ka.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -4993,7 +5005,7 @@
   ],
   "she is running": [
     {
-      "target": "ua katenga",
+      "target": "ua kat.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5001,7 +5013,7 @@
   ],
   "she is listening": [
     {
-      "target": "ua knaenga",
+      "target": "ua kna.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5017,7 +5029,7 @@
   ],
   "she is watching": [
     {
-      "target": "ua nienga",
+      "target": "ua ni.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5025,7 +5037,7 @@
   ],
   "she is drawing": [
     {
-      "target": "ua noksa salenga",
+      "target": "ua noksa sal.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5033,7 +5045,7 @@
   ],
   "she is reading": [
     {
-      "target": "ua poraienga",
+      "target": "ua porai.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5041,7 +5053,7 @@
   ],
   "she is studying": [
     {
-      "target": "ua poraienga",
+      "target": "ua porai.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5049,7 +5061,7 @@
   ],
   "she is walking": [
     {
-      "target": "ua reenga",
+      "target": "ua re.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5057,7 +5069,7 @@
   ],
   "she is singing": [
     {
-      "target": "ua ringenga",
+      "target": "ua ring.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5065,7 +5077,7 @@
   ],
   "she is painting": [
     {
-      "target": "ua rongchi noksa salenga",
+      "target": "ua rongchi noksa sal.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5073,7 +5085,7 @@
   ],
   "she is cleaning": [
     {
-      "target": "ua rongtalatenga",
+      "target": "ua rongtalat.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5081,7 +5093,7 @@
   ],
   "she is writing": [
     {
-      "target": "ua seaenga",
+      "target": "ua sea.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5089,7 +5101,7 @@
   ],
   "she is waiting": [
     {
-      "target": "ua sengsoenga",
+      "target": "ua sengso.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5097,7 +5109,7 @@
   ],
   "she is learning": [
     {
-      "target": "ua skie raenga",
+      "target": "ua skie ra.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5105,7 +5117,7 @@
   ],
   "she is cooking": [
     {
-      "target": "ua songenga",
+      "target": "ua song.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5113,7 +5125,7 @@
   ],
   "she is sleeping": [
     {
-      "target": "ua tusienga",
+      "target": "ua tusi.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5129,7 +5141,7 @@
   ],
   "they are talking": [
     {
-      "target": "uamang aganenga",
+      "target": "uamang agan.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5145,7 +5157,7 @@
   ],
   "they are dancing": [
     {
-      "target": "uamang chrokenga",
+      "target": "uamang chrok.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5153,7 +5165,7 @@
   ],
   "they are swimming": [
     {
-      "target": "uamang jroenga",
+      "target": "uamang jro.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5161,7 +5173,7 @@
   ],
   "they are playing": [
     {
-      "target": "uamang kalenga",
+      "target": "uamang kal.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5169,7 +5181,7 @@
   ],
   "they are working": [
     {
-      "target": "uamang kam kaenga",
+      "target": "uamang kam ka.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5177,7 +5189,7 @@
   ],
   "they are running": [
     {
-      "target": "uamang katenga",
+      "target": "uamang kat.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5185,7 +5197,7 @@
   ],
   "they are listening": [
     {
-      "target": "uamang knaenga",
+      "target": "uamang kna.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5193,7 +5205,7 @@
   ],
   "they eat food": [
     {
-      "target": "uamang mi chaa",
+      "target": "uamang mi cha.a",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5201,7 +5213,7 @@
   ],
   "they are watching": [
     {
-      "target": "uamang nienga",
+      "target": "uamang ni.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5209,7 +5221,7 @@
   ],
   "they are drawing": [
     {
-      "target": "uamang noksa salenga",
+      "target": "uamang noksa sal.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5217,7 +5229,7 @@
   ],
   "they are reading": [
     {
-      "target": "uamang poraienga",
+      "target": "uamang porai.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5225,7 +5237,7 @@
   ],
   "they are studying": [
     {
-      "target": "uamang poraienga",
+      "target": "uamang porai.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5233,7 +5245,7 @@
   ],
   "they are walking": [
     {
-      "target": "uamang reenga",
+      "target": "uamang re.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5241,7 +5253,7 @@
   ],
   "they are singing": [
     {
-      "target": "uamang ringenga",
+      "target": "uamang ring.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5249,7 +5261,7 @@
   ],
   "they are painting": [
     {
-      "target": "uamang rongchi noksa salenga",
+      "target": "uamang rongchi noksa sal.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5257,7 +5269,7 @@
   ],
   "they are cleaning": [
     {
-      "target": "uamang rongtalatenga",
+      "target": "uamang rongtalat.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5265,7 +5277,7 @@
   ],
   "they are writing": [
     {
-      "target": "uamang seaenga",
+      "target": "uamang sea.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5273,7 +5285,7 @@
   ],
   "they are waiting": [
     {
-      "target": "uamang sengsoenga",
+      "target": "uamang sengso.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5281,7 +5293,7 @@
   ],
   "they are learning": [
     {
-      "target": "uamang skie raenga",
+      "target": "uamang skie ra.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5289,7 +5301,7 @@
   ],
   "they are cooking": [
     {
-      "target": "uamang songenga",
+      "target": "uamang song.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -5297,7 +5309,7 @@
   ],
   "they are sleeping": [
     {
-      "target": "uamang tusienga",
+      "target": "uamang tusi.enga",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -6553,6 +6565,14 @@
       "priority": 1
     }
   ],
+  "will come": [
+    {
+      "target": "reba.gen",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
   "will go": [
     {
       "target": "re.angen",
@@ -6649,14 +6669,6 @@
       "priority": 1
     }
   ],
-  "talk": [
-    {
-      "target": "golpowa",
-      "type": "sentence",
-      "meaning": "",
-      "priority": 1
-    }
-  ],
   "hell regret later": [
     {
       "target": "bia jamani sikkimgen",
@@ -6748,6 +6760,12 @@
   "man": [
     {
       "target": "measa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    },
+    {
+      "target": "mea.sa",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -6859,7 +6877,7 @@
   ],
   "ten": [
     {
-      "target": "chikking",
+      "target": "chiking",
       "type": "sentence",
       "meaning": "",
       "priority": 1
@@ -6889,7 +6907,7 @@
       "priority": 1
     }
   ],
-  "forteen": [
+  "fourteen": [
     {
       "target": "chibri",
       "type": "sentence",
@@ -6898,6 +6916,14 @@
     }
   ],
   "fifteen": [
+    {
+      "target": "chibonga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "fiveteen": [
     {
       "target": "chibonga",
       "type": "sentence",
@@ -6945,78 +6971,6 @@
       "priority": 1
     }
   ],
-  "twenty one": [
-    {
-      "target": "kolgrik sa",
-      "type": "sentence",
-      "meaning": "",
-      "priority": 1
-    }
-  ],
-  "twenty two": [
-    {
-      "target": "kolgrik gni",
-      "type": "sentence",
-      "meaning": "",
-      "priority": 1
-    }
-  ],
-  "twenty three": [
-    {
-      "target": "kolgrik gitam",
-      "type": "sentence",
-      "meaning": "",
-      "priority": 1
-    }
-  ],
-  "twenty four": [
-    {
-      "target": "kolgrik bri",
-      "type": "sentence",
-      "meaning": "",
-      "priority": 1
-    }
-  ],
-  "twenty five": [
-    {
-      "target": "kolgrik bonga",
-      "type": "sentence",
-      "meaning": "",
-      "priority": 1
-    }
-  ],
-  "twenty six": [
-    {
-      "target": "kolgrik dok",
-      "type": "sentence",
-      "meaning": "",
-      "priority": 1
-    }
-  ],
-  "twenty seven": [
-    {
-      "target": "kolgrik sni",
-      "type": "sentence",
-      "meaning": "",
-      "priority": 1
-    }
-  ],
-  "twenty eight": [
-    {
-      "target": "kolgrik chet",
-      "type": "sentence",
-      "meaning": "",
-      "priority": 1
-    }
-  ],
-  "twenty nine": [
-    {
-      "target": "kolgrik sku",
-      "type": "sentence",
-      "meaning": "",
-      "priority": 1
-    }
-  ],
   "thirty": [
     {
       "target": "kolachi",
@@ -7026,6 +6980,14 @@
     }
   ],
   "forty": [
+    {
+      "target": "sotbri",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "fourty": [
     {
       "target": "sotbri",
       "type": "sentence",
@@ -7145,9 +7107,505 @@
       "priority": 1
     }
   ],
+  "one thousand": [
+    {
+      "target": "hajalsa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "thousand": [
+    {
+      "target": "hajal",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "two thousand": [
+    {
+      "target": "hajalgni",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "three thousand": [
+    {
+      "target": "hajalgitam",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "four thousand": [
+    {
+      "target": "hajalbri",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "five thousand": [
+    {
+      "target": "hajalbonga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "six thousand": [
+    {
+      "target": "hajaldok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "seven thousand": [
+    {
+      "target": "hajalsni",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "eight thousand": [
+    {
+      "target": "hajalchet",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "nine thousand": [
+    {
+      "target": "hajalsku",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
   "one lakh": [
     {
       "target": "lakhsa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "why are you not": [
+    {
+      "target": "na.a maina ongja",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what's up": [
+    {
+      "target": "mai kobor",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what news": [
+    {
+      "target": "mai kobor",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what is the news": [
+    {
+      "target": "mai kobor",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "are you doing well": [
+    {
+      "target": "namengama",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "good news": [
+    {
+      "target": "nama kobor",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "what is going on": [
+    {
+      "target": "mai dakenga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am doing well": [
+    {
+      "target": "namengaba",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "doing well": [
+    {
+      "target": "namengaba",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am sick": [
+    {
+      "target": "anga saenga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "locked": [
+    {
+      "target": "tekjok",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "sad": [
+    {
+      "target": "duk",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am sad": [
+    {
+      "target": "anga duk onga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "cry": [
+    {
+      "target": "grapa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "crying": [
+    {
+      "target": "grapenga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i am crying": [
+    {
+      "target": "anga grapenga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "smile": [
+    {
+      "target": "kadinga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "smiling": [
+    {
+      "target": "kadingenga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "happy": [
+    {
+      "target": "kusi",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he is happy": [
+    {
+      "target": "bia kusi ong.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she is happy": [
+    {
+      "target": "bia kusi ong.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they are happy": [
+    {
+      "target": "uamang kusi ong.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he is sad": [
+    {
+      "target": "bia duk ong.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she is sad": [
+    {
+      "target": "bia duk ong.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "they are sad": [
+    {
+      "target": "uamang duk ong.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i like it": [
+    {
+      "target": "anga namnika",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i enjoy": [
+    {
+      "target": "anga katchae roa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "enjoy": [
+    {
+      "target": "katcha",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "enjoying": [
+    {
+      "target": "katchaenga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "beautiful": [
+    {
+      "target": "silbea",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she's beautiful": [
+    {
+      "target": "bia silbea",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "cute": [
+    {
+      "target": "nitoa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she's cute": [
+    {
+      "target": "bia nitobea",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he's beautiful": [
+    {
+      "target": "bia silbea",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he's cute": [
+    {
+      "target": "bia nitobea",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "handsome": [
+    {
+      "target": "sila",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you're cute": [
+    {
+      "target": "na.a nitoa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "good boy": [
+    {
+      "target": "nama mande",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you're are a good boy": [
+    {
+      "target": "na.a nama mande",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "you are a good boy": [
+    {
+      "target": "na.a nama mande",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "strong": [
+    {
+      "target": "bilaka",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "he's strong": [
+    {
+      "target": "bia bilaka measa",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "she's strong": [
+    {
+      "target": "bia bilaka",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "when will you come home your childrens are missing you": [
+    {
+      "target": "basako nokona re.bagen nang bi.sarangde simbraengjokna nang.na.",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "how did i get it": [
+    {
+      "target": "anga maidake iako man.a",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "roaming": [
+    {
+      "target": "roramenga",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "roam": [
+    {
+      "target": "rorama",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "i know": [
+    {
+      "target": "anga masia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "know": [
+    {
+      "target": "ma.sia",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "know nothing": [
+    {
+      "target": "mamingko ba ma.sija",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "nothing": [
+    {
+      "target": "mamingba ong.ja",
+      "type": "sentence",
+      "meaning": "",
+      "priority": 1
+    }
+  ],
+  "something": [
+    {
+      "target": "maiba",
       "type": "sentence",
       "meaning": "",
       "priority": 1
