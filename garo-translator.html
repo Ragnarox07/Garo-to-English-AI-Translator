@@ -191,9 +191,21 @@
     if(!text){ resetResult(); srcText.focus(); return; }
     setLoading(true); translateStatus.textContent = "Contacting translator…";
     try{
-      const res = await fetch(API_BASE + '/api/translate', { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({text}) });
-      const data = await res.json();
-      if(!res.ok) throw new Error(data.error || 'Translation failed');
+      const rawResponse = await res.text();
+if (!rawResponse.trim()) {
+  throw new Error(
+    `Server returned an empty response (${res.status}). ` +
+    `The AI process may have timed out or restarted.`
+  );
+}
+let data;
+try {
+  data = JSON.parse(rawResponse);
+} catch {
+  throw new Error(
+    `Server returned invalid data (${res.status}).`
+  );
+}
       const output = data.result || data.message || 'No confident translation yet.';
       resultText.textContent = output;
       resultText.className = data.match_type === 'no match' ? 'unconfident' : '';
