@@ -188,37 +188,78 @@
   async function translateNow(){
     const text = srcText.value.trim();
     updateWordCount();
-    if(!text){ resetResult(); srcText.focus(); return; }
-    setLoading(true); translateStatus.textContent = "Contacting translator…";
+
+    if(!text){
+      resetResult();
+      srcText.focus();
+      return;
+    }
+
+    setLoading(true);
+    translateStatus.textContent = "Contacting translator…";
+
     try{
+      const res = await fetch(API_BASE + '/api/translate', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({text})
+      });
+
       const rawResponse = await res.text();
-if (!rawResponse.trim()) {
-  throw new Error(
-    `Server returned an empty response (${res.status}). ` +
-    `The AI process may have timed out or restarted.`
-  );
-}
-let data;
-try {
-  data = JSON.parse(rawResponse);
-} catch {
-  throw new Error(
-    `Server returned invalid data (${res.status}).`
-  );
-}
-      const output = data.result || data.message || 'No confident translation yet.';
+
+      if(!rawResponse.trim()){
+        throw new Error(
+          `Server returned an empty response (${res.status}). ` +
+          `The AI process may have timed out or restarted.`
+        );
+      }
+
+      let data;
+
+      try{
+        data = JSON.parse(rawResponse);
+      }catch{
+        throw new Error(
+          `Server returned invalid data (${res.status}).`
+        );
+      }
+
+      if(!res.ok){
+        throw new Error(data.error || 'Translation failed');
+      }
+
+      const output =
+        data.result ||
+        data.message ||
+        'No confident translation yet.';
+
       resultText.textContent = output;
-      resultText.className = data.match_type === 'no match' ? 'unconfident' : '';
+      resultText.className =
+        data.match_type === 'no match' ? 'unconfident' : '';
+
       matchType.textContent = data.match_type || '—';
-      copyBtn.style.display = data.result ? 'inline-block' : 'none';
-      translateStatus.textContent = data.match_type === 'no match' ? 'Please contribute the correct translation.' : '';
+      copyBtn.style.display =
+        data.result ? 'inline-block' : 'none';
+
+      translateStatus.textContent =
+        data.match_type === 'no match'
+          ? 'Please contribute the correct translation.'
+          : '';
+
     }catch(err){
-      resultText.textContent = 'Could not connect to the translator server.';
+      console.error("Translation error:", err);
+
+      resultText.textContent =
+        'Could not connect to the translator server.';
+
       resultText.className = 'unconfident';
       matchType.textContent = 'server error';
       copyBtn.style.display = 'none';
       translateStatus.textContent = err.message;
-    }finally{ setLoading(false); }
+
+    }finally{
+      setLoading(false);
+    }
   }
 
   srcText.addEventListener('input', () => { autoGrow(); updateWordCount(); });
