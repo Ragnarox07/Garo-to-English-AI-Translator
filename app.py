@@ -193,19 +193,64 @@ print(f"Model loaded on {DEVICE}. Exact memory: {len(exact_memory)} phrases.")
 # =========================================================
 # TRANSLATION LOGIC
 # =========================================================
+# uncomment this if other ai trasnlate does'nt works
+# def ai_translate(text):
+#     src = torch.tensor([encode(text, src_vocab)]).to(DEVICE)
+#     output = [tgt_vocab["<bos>"]]
+#     for _ in range(MAX_LEN):
+#         tgt = torch.tensor([output]).to(DEVICE)
+#         with torch.no_grad():
+#             logits = model(src, tgt)
+#         next_token = logits[:, -1, :].argmax(-1).item()
+#         if next_token == tgt_vocab["<eos>"]:
+#             break
+#         output.append(next_token)
+#     return decode(output, inv_tgt_vocab)
+
+AI_MAX_OUTPUT_LEN = 20
 
 def ai_translate(text):
-    src = torch.tensor([encode(text, src_vocab)]).to(DEVICE)
+    import time
+
+    started = time.time()
+
+    src = torch.tensor(
+        [encode(text, src_vocab)],
+        dtype=torch.long,
+        device=DEVICE
+    )
+
     output = [tgt_vocab["<bos>"]]
-    for _ in range(MAX_LEN):
-        tgt = torch.tensor([output]).to(DEVICE)
-        with torch.no_grad():
+
+    for _ in range(AI_MAX_OUTPUT_LEN):
+        tgt = torch.tensor(
+            [output],
+            dtype=torch.long,
+            device=DEVICE
+        )
+
+        with torch.inference_mode():
             logits = model(src, tgt)
-        next_token = logits[:, -1, :].argmax(-1).item()
+
+        next_token = int(
+            logits[:, -1, :].argmax(dim=-1).item()
+        )
+
         if next_token == tgt_vocab["<eos>"]:
             break
+
         output.append(next_token)
-    return decode(output, inv_tgt_vocab)
+
+    result = decode(output, inv_tgt_vocab)
+
+    print(
+        f"AI completed | input={text!r} | "
+        f"time={time.time() - started:.2f}s | "
+        f"result={result!r}",
+        flush=True
+    )
+
+    return result
 
 
 def safe_ai_translate(text):
@@ -458,24 +503,50 @@ CORS(app)
 def index():
     return send_from_directory(".", "garo-translator.html")
 
+# @app.route("/api/translate", methods=["POST"])
+# def api_translate():
+#     try:
+#         data = request.get_json(silent=True) or {}
+#         text = (data.get("text") or "").strip()
+
+#         if not text:
+#             return jsonify({"error": "No text provided"}), 400
+
+#         return jsonify(translate(text))
+
+#     except Exception as e:
+#         print("API TRANSLATE ERROR:", e)
+#         return jsonify({
+#             "result": "",
+#             "match_type": "no match",
+#             "message": "Translator server error. Please try again."
+#         }), 200
+
 @app.route("/api/translate", methods=["POST"])
 def api_translate():
     try:
         data = request.get_json(silent=True) or {}
-        text = (data.get("text") or "").strip()
+        text = str(data.get("text", "")).strip()
 
         if not text:
             return jsonify({"error": "No text provided"}), 400
 
-        return jsonify(translate(text))
+        print(f"Translation request: {text!r}", flush=True)
 
-    except Exception as e:
-        print("API TRANSLATE ERROR:", e)
+        result = translate(text)
+
+        print(f"Translation response: {result}", flush=True)
+        return jsonify(result)
+
+    except Exception:
+        import traceback
+        traceback.print_exc()
+
         return jsonify({
-            "result": "",
-            "match_type": "no match",
-            "message": "Translator server error. Please try again."
-        }), 200
+            "error": "Translator server error."
+        }), 500
+
+
 
 @app.route("/health")
 def health():
