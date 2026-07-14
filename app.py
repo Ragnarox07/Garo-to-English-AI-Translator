@@ -207,7 +207,14 @@ print(f"Model loaded on {DEVICE}. Exact memory: {len(exact_memory)} phrases.")
 #         output.append(next_token)
 #     return decode(output, inv_tgt_vocab)
 
-AI_MAX_OUTPUT_LEN = 20
+torch.manual_seed(SEED)
+torch.set_num_threads(1)
+try:
+    torch.set_num_interop_threads(1)
+except RuntimeError:
+    pass
+
+AI_MAX_OUTPUT_LEN = 10
 
 def ai_translate(text):
     import time
